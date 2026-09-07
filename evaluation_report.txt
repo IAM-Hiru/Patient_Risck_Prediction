@@ -1,0 +1,25 @@
+=== Evaluation Report ===
+
+Best Model Selected: RandomForest
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.47      0.50      0.48        48
+           1       0.84      0.82      0.83       152
+
+    accuracy                           0.74       200
+   macro avg       0.65      0.66      0.66       200
+weighted avg       0.75      0.74      0.75       200
+
+
+Error Analysis:
+False Negatives (Missed Responders): 27
+False Positives (Incorrectly Predicted Responders): 24
+
+Overfitting Check:
+Train Accuracy: 0.8475
+Test Accuracy:  0.7450
+Warning: Model might be overfitting (Train Acc significantly higher than Test Acc).
+
+Features Dropped (Leakage/IDs):
+overall_survival_months, os_event_flag, progression_free_survival_months, pfs_event_flag, time_to_response_months, duration_of_response_months, best_overall_response, ct_3mo_tumor_mm, ct_3mo_recist, ct_6mo_tumor_mm, ct_6mo_recist, ct_12mo_tumor_mm, ct_12mo_recist, ct_24mo_tumor_mm, ct_24mo_recist, adverse_event_grade, patient_id
