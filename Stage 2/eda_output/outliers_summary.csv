@@ -1,0 +1,5 @@
+,Outlier Count,Outlier %,Lower Bound,Upper Bound
+Age,3,1.5,8.625,57.625
+Income,7,3.5,-74602.692,156753.554
+CreditScore,0,0.0,-53.5,1158.5
+Purchases,0,0.0,-3.0,13.0

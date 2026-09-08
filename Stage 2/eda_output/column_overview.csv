@@ -1,0 +1,7 @@
+,Data Type,Non-Null Count,Null Count,Null %,Unique Values
+Age,int64,200,0,0.0,39
+Income,float64,189,11,5.5,189
+CreditScore,int32,200,0,0.0,164
+Purchases,int32,200,0,0.0,11
+Category,str,200,0,0.0,4
+Satisfied,bool,200,0,0.0,2

@@ -1,0 +1,111 @@
+{
+  "n_patients": 500,
+  "n_features": 73,
+  "cancer_type_counts": {
+    "NSCLC": 132,
+    "CRC": 78,
+    "BREAST": 76,
+    "PANCREATIC": 46,
+    "HCC": 40,
+    "PROSTATE": 40,
+    "OVARIAN": 32,
+    "MELANOMA": 28,
+    "BLADDER": 14,
+    "GBM": 14
+  },
+  "sex_distribution": {
+    "F": 59.4,
+    "M": 40.6
+  },
+  "median_age": 64.0,
+  "age_iqr": [
+    55.0,
+    73.0
+  ],
+  "pd_l1_median": 33.400000000000006,
+  "tmb_median": 4.8,
+  "tmb_class_counts": {
+    "Low": 257,
+    "Intermediate": 148,
+    "High": 95
+  },
+  "msi_status_counts": {
+    "MSS": 472,
+    "MSI-H": 28
+  },
+  "top_driver_mutations": {
+    "KRAS": 81,
+    "HR_pos": 46,
+    "EGFR": 27,
+    "TP53": 24,
+    "PD_L1_high": 22,
+    "PIK3CA": 19,
+    "BRAF_V600E": 16,
+    "KRAS_G12C": 14,
+    "APC_mut": 14,
+    "HRD_pos": 12
+  },
+  "median_os_months": 34.75,
+  "os_event_rate": 73.6,
+  "median_pfs_months": 19.5,
+  "pfs_event_rate": 61.6,
+  "os_by_cancer": {
+    "BLADDER": {
+      "median": 69.1,
+      "mean": 70.2
+    },
+    "BREAST": {
+      "median": 99.5,
+      "mean": 86.4
+    },
+    "CRC": {
+      "median": 47.6,
+      "mean": 58.2
+    },
+    "GBM": {
+      "median": 15.4,
+      "mean": 14.5
+    },
+    "HCC": {
+      "median": 26.5,
+      "mean": 32.1
+    },
+    "MELANOMA": {
+      "median": 81.2,
+      "mean": 81.3
+    },
+    "NSCLC": {
+      "median": 22.5,
+      "mean": 33.4
+    },
+    "OVARIAN": {
+      "median": 31.4,
+      "mean": 39.4
+    },
+    "PANCREATIC": {
+      "median": 7.4,
+      "mean": 13.4
+    },
+    "PROSTATE": {
+      "median": 120.0,
+      "mean": 96.3
+    }
+  },
+  "orr_pct": 66.0,
+  "bor_counts": {
+    "PR": 262,
+    "SD": 139,
+    "CR": 68,
+    "PD": 31
+  },
+  "treatment_flags": {
+    "Immunotherapy": 78,
+    "Targeted Therapy": 50,
+    "Chemotherapy": 137,
+    "Surgery": 103,
+    "Radiation": 84
+  },
+  "grade3_4_ae_rate": 25.0,
+  "dose_reduction_rate": 24.8,
+  "discontinuation_rate": 12.6
+}
