@@ -1,0 +1,501 @@
+note_id,patient_id,cancer_type,note_type,text
+N0001,P0001,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0002,P0002,Renal Cell Carcinoma,pathology_report,Histopathological examination of Renal Cell Carcinoma specimen confirms no evidence of lymphovascular invasion.
+N0003,P0003,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0004,P0004,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms high grade malignant features with necrotic foci.
+N0005,P0005,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms high grade malignant features with necrotic foci.
+N0006,P0006,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0007,P0007,Triple-Negative Breast Cancer,pathology_report,Histopathological examination of Triple-Negative Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0008,P0008,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0009,P0009,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0010,P0010,Renal Cell Carcinoma,clinical_note,Histopathological examination of Renal Cell Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0011,P0011,Pancreatic Ductal Adenocarcinoma,pathology_report,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0012,P0012,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0013,P0013,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0014,P0014,Non-Small Cell Lung Cancer,pathology_report,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0015,P0015,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0016,P0016,Non-Small Cell Lung Cancer,pathology_report,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0017,P0017,Gastric Adenocarcinoma,pathology_report,Histopathological examination of Gastric Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0018,P0018,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0019,P0019,Her2-Positive Breast Cancer,clinical_note,Histopathological examination of Her2-Positive Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0020,P0020,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0021,P0021,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0022,P0022,Renal Cell Carcinoma,clinical_note,Histopathological examination of Renal Cell Carcinoma specimen confirms high grade malignant features with necrotic foci.
+N0023,P0023,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms invasive malignancy with clear surgical margins.
+N0024,P0024,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0025,P0025,Prostate Adenocarcinoma,pathology_report,Histopathological examination of Prostate Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0026,P0026,Gastric Adenocarcinoma,pathology_report,Histopathological examination of Gastric Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0027,P0027,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0028,P0028,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms invasive malignancy with clear surgical margins.
+N0029,P0029,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0030,P0030,Invasive Ductal Breast Cancer,pathology_report,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0031,P0031,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0032,P0032,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0033,P0033,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0034,P0034,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0035,P0035,Glioblastoma Multiforme,consultation_record,Histopathological examination of Glioblastoma Multiforme specimen confirms no evidence of lymphovascular invasion.
+N0036,P0036,Metastatic Colorectal Cancer,pathology_report,Histopathological examination of Metastatic Colorectal Cancer specimen confirms high grade malignant features with necrotic foci.
+N0037,P0037,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0038,P0038,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0039,P0039,Metastatic Melanoma,pathology_report,Histopathological examination of Metastatic Melanoma specimen confirms residual malignant cells at the tumor margin.
+N0040,P0040,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0041,P0041,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0042,P0042,Gastric Adenocarcinoma,pathology_report,Histopathological examination of Gastric Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0043,P0043,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0044,P0044,Gastric Adenocarcinoma,pathology_report,Histopathological examination of Gastric Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0045,P0045,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms invasive malignancy with clear surgical margins.
+N0046,P0046,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0047,P0047,Triple-Negative Breast Cancer,clinical_note,Histopathological examination of Triple-Negative Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0048,P0048,Metastatic Colorectal Cancer,clinical_note,Histopathological examination of Metastatic Colorectal Cancer specimen confirms no evidence of lymphovascular invasion.
+N0049,P0049,Invasive Ductal Breast Cancer,consultation_record,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0050,P0050,Renal Cell Carcinoma,pathology_report,Histopathological examination of Renal Cell Carcinoma specimen confirms no evidence of lymphovascular invasion.
+N0051,P0051,Ovarian High-Grade Serous Carcinoma,clinical_note,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0052,P0052,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0053,P0053,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0054,P0054,Gastric Adenocarcinoma,pathology_report,Histopathological examination of Gastric Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0055,P0055,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0056,P0056,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0057,P0057,Triple-Negative Breast Cancer,pathology_report,Histopathological examination of Triple-Negative Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0058,P0058,Renal Cell Carcinoma,clinical_note,Histopathological examination of Renal Cell Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0059,P0059,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms high grade malignant features with necrotic foci.
+N0060,P0060,Triple-Negative Breast Cancer,clinical_note,Histopathological examination of Triple-Negative Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0061,P0061,Prostate Adenocarcinoma,pathology_report,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0062,P0062,Ovarian High-Grade Serous Carcinoma,pathology_report,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0063,P0063,Metastatic Colorectal Cancer,clinical_note,Histopathological examination of Metastatic Colorectal Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0064,P0064,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0065,P0065,Ovarian High-Grade Serous Carcinoma,consultation_record,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms no evidence of lymphovascular invasion.
+N0066,P0066,Ovarian High-Grade Serous Carcinoma,consultation_record,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0067,P0067,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms invasive malignancy with clear surgical margins.
+N0068,P0068,Renal Cell Carcinoma,consultation_record,Histopathological examination of Renal Cell Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0069,P0069,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0070,P0070,Metastatic Melanoma,pathology_report,Histopathological examination of Metastatic Melanoma specimen confirms invasive malignancy with clear surgical margins.
+N0071,P0071,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0072,P0072,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms residual malignant cells at the tumor margin.
+N0073,P0073,Pancreatic Ductal Adenocarcinoma,pathology_report,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0074,P0074,Prostate Adenocarcinoma,clinical_note,Histopathological examination of Prostate Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0075,P0075,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms high grade malignant features with necrotic foci.
+N0076,P0076,Renal Cell Carcinoma,consultation_record,Histopathological examination of Renal Cell Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0077,P0077,Glioblastoma Multiforme,pathology_report,Histopathological examination of Glioblastoma Multiforme specimen confirms residual malignant cells at the tumor margin.
+N0078,P0078,Glioblastoma Multiforme,pathology_report,Histopathological examination of Glioblastoma Multiforme specimen confirms no evidence of lymphovascular invasion.
+N0079,P0079,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0080,P0080,Metastatic Colorectal Cancer,pathology_report,Histopathological examination of Metastatic Colorectal Cancer specimen confirms no evidence of lymphovascular invasion.
+N0081,P0081,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0082,P0082,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0083,P0083,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0084,P0084,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0085,P0085,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0086,P0086,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0087,P0087,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms high grade malignant features with necrotic foci.
+N0088,P0088,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0089,P0089,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms high grade malignant features with necrotic foci.
+N0090,P0090,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0091,P0091,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0092,P0092,Invasive Ductal Breast Cancer,consultation_record,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0093,P0093,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms invasive malignancy with clear surgical margins.
+N0094,P0094,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms residual malignant cells at the tumor margin.
+N0095,P0095,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0096,P0096,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0097,P0097,Colorectal Adenocarcinoma,pathology_report,Histopathological examination of Colorectal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0098,P0098,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms residual malignant cells at the tumor margin.
+N0099,P0099,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0100,P0100,Invasive Ductal Breast Cancer,consultation_record,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0101,P0101,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0102,P0102,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0103,P0103,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0104,P0104,Non-Small Cell Lung Cancer,pathology_report,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms high grade malignant features with necrotic foci.
+N0105,P0105,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0106,P0106,Metastatic Colorectal Cancer,consultation_record,Histopathological examination of Metastatic Colorectal Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0107,P0107,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0108,P0108,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0109,P0109,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0110,P0110,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0111,P0111,Ovarian High-Grade Serous Carcinoma,clinical_note,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms high grade malignant features with necrotic foci.
+N0112,P0112,Glioblastoma Multiforme,consultation_record,Histopathological examination of Glioblastoma Multiforme specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0113,P0113,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms residual malignant cells at the tumor margin.
+N0114,P0114,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0115,P0115,Colorectal Adenocarcinoma,pathology_report,Histopathological examination of Colorectal Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0116,P0116,Invasive Ductal Breast Cancer,consultation_record,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0117,P0117,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0118,P0118,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms residual malignant cells at the tumor margin.
+N0119,P0119,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0120,P0120,Prostate Adenocarcinoma,pathology_report,Histopathological examination of Prostate Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0121,P0121,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0122,P0122,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms high grade malignant features with necrotic foci.
+N0123,P0123,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0124,P0124,Ovarian High-Grade Serous Carcinoma,pathology_report,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0125,P0125,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0126,P0126,Prostate Adenocarcinoma,clinical_note,Histopathological examination of Prostate Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0127,P0127,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0128,P0128,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0129,P0129,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0130,P0130,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms high grade malignant features with necrotic foci.
+N0131,P0131,Invasive Ductal Breast Cancer,pathology_report,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0132,P0132,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0133,P0133,Renal Cell Carcinoma,pathology_report,Histopathological examination of Renal Cell Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0134,P0134,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms residual malignant cells at the tumor margin.
+N0135,P0135,Metastatic Melanoma,pathology_report,Histopathological examination of Metastatic Melanoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0136,P0136,Metastatic Colorectal Cancer,clinical_note,Histopathological examination of Metastatic Colorectal Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0137,P0137,Colorectal Adenocarcinoma,pathology_report,Histopathological examination of Colorectal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0138,P0138,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0139,P0139,Prostate Adenocarcinoma,clinical_note,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0140,P0140,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0141,P0141,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0142,P0142,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms residual malignant cells at the tumor margin.
+N0143,P0143,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0144,P0144,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms residual malignant cells at the tumor margin.
+N0145,P0145,Glioblastoma Multiforme,pathology_report,Histopathological examination of Glioblastoma Multiforme specimen confirms residual malignant cells at the tumor margin.
+N0146,P0146,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0147,P0147,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0148,P0148,Renal Cell Carcinoma,clinical_note,Histopathological examination of Renal Cell Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0149,P0149,Her2-Positive Breast Cancer,clinical_note,Histopathological examination of Her2-Positive Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0150,P0150,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0151,P0151,Renal Cell Carcinoma,clinical_note,Histopathological examination of Renal Cell Carcinoma specimen confirms no evidence of lymphovascular invasion.
+N0152,P0152,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms residual malignant cells at the tumor margin.
+N0153,P0153,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0154,P0154,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0155,P0155,Her2-Positive Breast Cancer,clinical_note,Histopathological examination of Her2-Positive Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0156,P0156,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms invasive malignancy with clear surgical margins.
+N0157,P0157,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0158,P0158,Metastatic Melanoma,pathology_report,Histopathological examination of Metastatic Melanoma specimen confirms invasive malignancy with clear surgical margins.
+N0159,P0159,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0160,P0160,Ovarian High-Grade Serous Carcinoma,clinical_note,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms no evidence of lymphovascular invasion.
+N0161,P0161,Metastatic Colorectal Cancer,consultation_record,Histopathological examination of Metastatic Colorectal Cancer specimen confirms high grade malignant features with necrotic foci.
+N0162,P0162,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0163,P0163,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms high grade malignant features with necrotic foci.
+N0164,P0164,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0165,P0165,Glioblastoma Multiforme,consultation_record,Histopathological examination of Glioblastoma Multiforme specimen confirms high grade malignant features with necrotic foci.
+N0166,P0166,Glioblastoma Multiforme,pathology_report,Histopathological examination of Glioblastoma Multiforme specimen confirms residual malignant cells at the tumor margin.
+N0167,P0167,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms high grade malignant features with necrotic foci.
+N0168,P0168,Acute Myeloid Leukemia,clinical_note,Histopathological examination of Acute Myeloid Leukemia specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0169,P0169,Metastatic Melanoma,pathology_report,Histopathological examination of Metastatic Melanoma specimen confirms no evidence of lymphovascular invasion.
+N0170,P0170,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0171,P0171,Invasive Ductal Breast Cancer,consultation_record,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0172,P0172,Colorectal Adenocarcinoma,pathology_report,Histopathological examination of Colorectal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0173,P0173,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0174,P0174,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0175,P0175,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms invasive malignancy with clear surgical margins.
+N0176,P0176,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0177,P0177,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0178,P0178,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0179,P0179,Invasive Ductal Breast Cancer,consultation_record,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0180,P0180,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0181,P0181,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0182,P0182,Triple-Negative Breast Cancer,clinical_note,Histopathological examination of Triple-Negative Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0183,P0183,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0184,P0184,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0185,P0185,Ovarian High-Grade Serous Carcinoma,pathology_report,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0186,P0186,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0187,P0187,Metastatic Melanoma,pathology_report,Histopathological examination of Metastatic Melanoma specimen confirms residual malignant cells at the tumor margin.
+N0188,P0188,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0189,P0189,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0190,P0190,Renal Cell Carcinoma,consultation_record,Histopathological examination of Renal Cell Carcinoma specimen confirms high grade malignant features with necrotic foci.
+N0191,P0191,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0192,P0192,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms high grade malignant features with necrotic foci.
+N0193,P0193,Prostate Adenocarcinoma,pathology_report,Histopathological examination of Prostate Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0194,P0194,Triple-Negative Breast Cancer,clinical_note,Histopathological examination of Triple-Negative Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0195,P0195,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0196,P0196,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0197,P0197,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms invasive malignancy with clear surgical margins.
+N0198,P0198,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms invasive malignancy with clear surgical margins.
+N0199,P0199,Prostate Adenocarcinoma,pathology_report,Histopathological examination of Prostate Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0200,P0200,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms invasive malignancy with clear surgical margins.
+N0201,P0201,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0202,P0202,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0203,P0203,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0204,P0204,Glioblastoma Multiforme,pathology_report,Histopathological examination of Glioblastoma Multiforme specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0205,P0205,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0206,P0206,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0207,P0207,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0208,P0208,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0209,P0209,Metastatic Colorectal Cancer,clinical_note,Histopathological examination of Metastatic Colorectal Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0210,P0210,Prostate Adenocarcinoma,pathology_report,Histopathological examination of Prostate Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0211,P0211,Invasive Ductal Breast Cancer,pathology_report,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0212,P0212,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0213,P0213,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0214,P0214,Prostate Adenocarcinoma,clinical_note,Histopathological examination of Prostate Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0215,P0215,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0216,P0216,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0217,P0217,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0218,P0218,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0219,P0219,Colorectal Adenocarcinoma,pathology_report,Histopathological examination of Colorectal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0220,P0220,Triple-Negative Breast Cancer,clinical_note,Histopathological examination of Triple-Negative Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0221,P0221,Ovarian High-Grade Serous Carcinoma,consultation_record,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0222,P0222,Ovarian High-Grade Serous Carcinoma,consultation_record,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms high grade malignant features with necrotic foci.
+N0223,P0223,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0224,P0224,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0225,P0225,Pancreatic Ductal Adenocarcinoma,pathology_report,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0226,P0226,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0227,P0227,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0228,P0228,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0229,P0229,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0230,P0230,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0231,P0231,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms high grade malignant features with necrotic foci.
+N0232,P0232,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0233,P0233,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0234,P0234,Metastatic Colorectal Cancer,pathology_report,Histopathological examination of Metastatic Colorectal Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0235,P0235,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0236,P0236,Invasive Ductal Breast Cancer,pathology_report,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0237,P0237,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0238,P0238,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0239,P0239,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0240,P0240,Ovarian High-Grade Serous Carcinoma,clinical_note,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0241,P0241,Metastatic Melanoma,pathology_report,Histopathological examination of Metastatic Melanoma specimen confirms high grade malignant features with necrotic foci.
+N0242,P0242,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0243,P0243,Glioblastoma Multiforme,consultation_record,Histopathological examination of Glioblastoma Multiforme specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0244,P0244,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0245,P0245,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms high grade malignant features with necrotic foci.
+N0246,P0246,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0247,P0247,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0248,P0248,Invasive Ductal Breast Cancer,consultation_record,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0249,P0249,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms high grade malignant features with necrotic foci.
+N0250,P0250,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0251,P0251,Triple-Negative Breast Cancer,pathology_report,Histopathological examination of Triple-Negative Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0252,P0252,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0253,P0253,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms invasive malignancy with clear surgical margins.
+N0254,P0254,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms invasive malignancy with clear surgical margins.
+N0255,P0255,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0256,P0256,Metastatic Colorectal Cancer,consultation_record,Histopathological examination of Metastatic Colorectal Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0257,P0257,Ovarian High-Grade Serous Carcinoma,clinical_note,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms no evidence of lymphovascular invasion.
+N0258,P0258,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0259,P0259,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0260,P0260,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0261,P0261,Non-Small Cell Lung Cancer,pathology_report,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0262,P0262,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0263,P0263,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0264,P0264,Triple-Negative Breast Cancer,pathology_report,Histopathological examination of Triple-Negative Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0265,P0265,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0266,P0266,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0267,P0267,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0268,P0268,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms residual malignant cells at the tumor margin.
+N0269,P0269,Metastatic Colorectal Cancer,consultation_record,Histopathological examination of Metastatic Colorectal Cancer specimen confirms residual malignant cells at the tumor margin.
+N0270,P0270,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms invasive malignancy with clear surgical margins.
+N0271,P0271,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0272,P0272,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms invasive malignancy with clear surgical margins.
+N0273,P0273,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0274,P0274,Acute Myeloid Leukemia,clinical_note,Histopathological examination of Acute Myeloid Leukemia specimen confirms high grade malignant features with necrotic foci.
+N0275,P0275,Metastatic Colorectal Cancer,clinical_note,Histopathological examination of Metastatic Colorectal Cancer specimen confirms high grade malignant features with necrotic foci.
+N0276,P0276,Acute Myeloid Leukemia,clinical_note,Histopathological examination of Acute Myeloid Leukemia specimen confirms high grade malignant features with necrotic foci.
+N0277,P0277,Metastatic Colorectal Cancer,clinical_note,Histopathological examination of Metastatic Colorectal Cancer specimen confirms high grade malignant features with necrotic foci.
+N0278,P0278,Renal Cell Carcinoma,pathology_report,Histopathological examination of Renal Cell Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0279,P0279,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0280,P0280,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0281,P0281,Prostate Adenocarcinoma,clinical_note,Histopathological examination of Prostate Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0282,P0282,Ovarian High-Grade Serous Carcinoma,consultation_record,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0283,P0283,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0284,P0284,Renal Cell Carcinoma,consultation_record,Histopathological examination of Renal Cell Carcinoma specimen confirms high grade malignant features with necrotic foci.
+N0285,P0285,Metastatic Colorectal Cancer,consultation_record,Histopathological examination of Metastatic Colorectal Cancer specimen confirms no evidence of lymphovascular invasion.
+N0286,P0286,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms high grade malignant features with necrotic foci.
+N0287,P0287,Triple-Negative Breast Cancer,clinical_note,Histopathological examination of Triple-Negative Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0288,P0288,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0289,P0289,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0290,P0290,Ovarian High-Grade Serous Carcinoma,clinical_note,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms no evidence of lymphovascular invasion.
+N0291,P0291,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0292,P0292,Colorectal Adenocarcinoma,pathology_report,Histopathological examination of Colorectal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0293,P0293,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0294,P0294,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0295,P0295,Renal Cell Carcinoma,clinical_note,Histopathological examination of Renal Cell Carcinoma specimen confirms high grade malignant features with necrotic foci.
+N0296,P0296,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0297,P0297,Prostate Adenocarcinoma,clinical_note,Histopathological examination of Prostate Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0298,P0298,Renal Cell Carcinoma,pathology_report,Histopathological examination of Renal Cell Carcinoma specimen confirms high grade malignant features with necrotic foci.
+N0299,P0299,Metastatic Colorectal Cancer,consultation_record,Histopathological examination of Metastatic Colorectal Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0300,P0300,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0301,P0301,Invasive Ductal Breast Cancer,consultation_record,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0302,P0302,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0303,P0303,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms invasive malignancy with clear surgical margins.
+N0304,P0304,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms invasive malignancy with clear surgical margins.
+N0305,P0305,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0306,P0306,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms high grade malignant features with necrotic foci.
+N0307,P0307,Non-Small Cell Lung Cancer,pathology_report,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0308,P0308,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0309,P0309,Glioblastoma Multiforme,consultation_record,Histopathological examination of Glioblastoma Multiforme specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0310,P0310,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0311,P0311,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms invasive malignancy with clear surgical margins.
+N0312,P0312,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0313,P0313,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0314,P0314,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0315,P0315,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0316,P0316,Non-Small Cell Lung Cancer,pathology_report,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0317,P0317,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0318,P0318,Metastatic Colorectal Cancer,consultation_record,Histopathological examination of Metastatic Colorectal Cancer specimen confirms high grade malignant features with necrotic foci.
+N0319,P0319,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0320,P0320,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0321,P0321,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms high grade malignant features with necrotic foci.
+N0322,P0322,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms no evidence of lymphovascular invasion.
+N0323,P0323,Prostate Adenocarcinoma,pathology_report,Histopathological examination of Prostate Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0324,P0324,Invasive Ductal Breast Cancer,consultation_record,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0325,P0325,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0326,P0326,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms high grade malignant features with necrotic foci.
+N0327,P0327,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0328,P0328,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0329,P0329,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0330,P0330,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0331,P0331,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0332,P0332,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms invasive malignancy with clear surgical margins.
+N0333,P0333,Acute Myeloid Leukemia,clinical_note,Histopathological examination of Acute Myeloid Leukemia specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0334,P0334,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms high grade malignant features with necrotic foci.
+N0335,P0335,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms high grade malignant features with necrotic foci.
+N0336,P0336,Metastatic Melanoma,consultation_record,Histopathological examination of Metastatic Melanoma specimen confirms invasive malignancy with clear surgical margins.
+N0337,P0337,Her2-Positive Breast Cancer,clinical_note,Histopathological examination of Her2-Positive Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0338,P0338,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0339,P0339,Ovarian High-Grade Serous Carcinoma,consultation_record,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0340,P0340,Renal Cell Carcinoma,consultation_record,Histopathological examination of Renal Cell Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0341,P0341,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms invasive malignancy with clear surgical margins.
+N0342,P0342,Triple-Negative Breast Cancer,pathology_report,Histopathological examination of Triple-Negative Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0343,P0343,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0344,P0344,Triple-Negative Breast Cancer,pathology_report,Histopathological examination of Triple-Negative Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0345,P0345,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0346,P0346,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms high grade malignant features with necrotic foci.
+N0347,P0347,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0348,P0348,Triple-Negative Breast Cancer,clinical_note,Histopathological examination of Triple-Negative Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0349,P0349,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0350,P0350,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0351,P0351,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms residual malignant cells at the tumor margin.
+N0352,P0352,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms invasive malignancy with clear surgical margins.
+N0353,P0353,Renal Cell Carcinoma,consultation_record,Histopathological examination of Renal Cell Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0354,P0354,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms high grade malignant features with necrotic foci.
+N0355,P0355,Non-Small Cell Lung Cancer,pathology_report,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0356,P0356,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0357,P0357,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0358,P0358,Acute Myeloid Leukemia,clinical_note,Histopathological examination of Acute Myeloid Leukemia specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0359,P0359,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0360,P0360,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0361,P0361,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms high grade malignant features with necrotic foci.
+N0362,P0362,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0363,P0363,Prostate Adenocarcinoma,clinical_note,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0364,P0364,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0365,P0365,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0366,P0366,Renal Cell Carcinoma,pathology_report,Histopathological examination of Renal Cell Carcinoma specimen confirms no evidence of lymphovascular invasion.
+N0367,P0367,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0368,P0368,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0369,P0369,Glioblastoma Multiforme,pathology_report,Histopathological examination of Glioblastoma Multiforme specimen confirms high grade malignant features with necrotic foci.
+N0370,P0370,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0371,P0371,Non-Small Cell Lung Cancer,pathology_report,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0372,P0372,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0373,P0373,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms high grade malignant features with necrotic foci.
+N0374,P0374,Renal Cell Carcinoma,clinical_note,Histopathological examination of Renal Cell Carcinoma specimen confirms high grade malignant features with necrotic foci.
+N0375,P0375,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0376,P0376,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0377,P0377,Invasive Ductal Breast Cancer,pathology_report,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0378,P0378,Metastatic Colorectal Cancer,consultation_record,Histopathological examination of Metastatic Colorectal Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0379,P0379,Acute Myeloid Leukemia,clinical_note,Histopathological examination of Acute Myeloid Leukemia specimen confirms invasive malignancy with clear surgical margins.
+N0380,P0380,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0381,P0381,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0382,P0382,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0383,P0383,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms high grade malignant features with necrotic foci.
+N0384,P0384,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms invasive malignancy with clear surgical margins.
+N0385,P0385,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0386,P0386,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0387,P0387,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0388,P0388,Glioblastoma Multiforme,pathology_report,Histopathological examination of Glioblastoma Multiforme specimen confirms high grade malignant features with necrotic foci.
+N0389,P0389,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0390,P0390,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0391,P0391,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms invasive malignancy with clear surgical margins.
+N0392,P0392,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0393,P0393,Glioblastoma Multiforme,pathology_report,Histopathological examination of Glioblastoma Multiforme specimen confirms invasive malignancy with clear surgical margins.
+N0394,P0394,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0395,P0395,Ovarian High-Grade Serous Carcinoma,consultation_record,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0396,P0396,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0397,P0397,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0398,P0398,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0399,P0399,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0400,P0400,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms no evidence of lymphovascular invasion.
+N0401,P0401,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms no evidence of lymphovascular invasion.
+N0402,P0402,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms high grade malignant features with necrotic foci.
+N0403,P0403,Metastatic Melanoma,pathology_report,Histopathological examination of Metastatic Melanoma specimen confirms no evidence of lymphovascular invasion.
+N0404,P0404,Ovarian High-Grade Serous Carcinoma,pathology_report,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0405,P0405,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms invasive malignancy with clear surgical margins.
+N0406,P0406,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms residual malignant cells at the tumor margin.
+N0407,P0407,Gastric Adenocarcinoma,pathology_report,Histopathological examination of Gastric Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0408,P0408,Metastatic Colorectal Cancer,clinical_note,Histopathological examination of Metastatic Colorectal Cancer specimen confirms high grade malignant features with necrotic foci.
+N0409,P0409,Multiple Myeloma,consultation_record,Histopathological examination of Multiple Myeloma specimen confirms high grade malignant features with necrotic foci.
+N0410,P0410,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0411,P0411,Acute Myeloid Leukemia,consultation_record,Histopathological examination of Acute Myeloid Leukemia specimen confirms residual malignant cells at the tumor margin.
+N0412,P0412,Invasive Ductal Breast Cancer,pathology_report,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0413,P0413,Colorectal Adenocarcinoma,pathology_report,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0414,P0414,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0415,P0415,Triple-Negative Breast Cancer,clinical_note,Histopathological examination of Triple-Negative Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0416,P0416,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0417,P0417,Small Cell Lung Cancer,clinical_note,Histopathological examination of Small Cell Lung Cancer specimen confirms no evidence of lymphovascular invasion.
+N0418,P0418,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0419,P0419,Triple-Negative Breast Cancer,consultation_record,Histopathological examination of Triple-Negative Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0420,P0420,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms high grade malignant features with necrotic foci.
+N0421,P0421,Invasive Ductal Breast Cancer,pathology_report,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0422,P0422,Invasive Ductal Breast Cancer,pathology_report,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0423,P0423,Invasive Ductal Breast Cancer,clinical_note,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0424,P0424,Non-Small Cell Lung Cancer,clinical_note,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0425,P0425,Multiple Myeloma,pathology_report,Histopathological examination of Multiple Myeloma specimen confirms no evidence of lymphovascular invasion.
+N0426,P0426,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0427,P0427,Pancreatic Ductal Adenocarcinoma,consultation_record,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0428,P0428,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms invasive malignancy with clear surgical margins.
+N0429,P0429,Invasive Ductal Breast Cancer,pathology_report,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0430,P0430,Ovarian High-Grade Serous Carcinoma,clinical_note,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms no evidence of lymphovascular invasion.
+N0431,P0431,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0432,P0432,Invasive Ductal Breast Cancer,consultation_record,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0433,P0433,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0434,P0434,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0435,P0435,Glioblastoma Multiforme,consultation_record,Histopathological examination of Glioblastoma Multiforme specimen confirms invasive malignancy with clear surgical margins.
+N0436,P0436,Glioblastoma Multiforme,pathology_report,Histopathological examination of Glioblastoma Multiforme specimen confirms no evidence of lymphovascular invasion.
+N0437,P0437,Pancreatic Ductal Adenocarcinoma,pathology_report,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0438,P0438,Glioblastoma Multiforme,consultation_record,Histopathological examination of Glioblastoma Multiforme specimen confirms residual malignant cells at the tumor margin.
+N0439,P0439,Acute Myeloid Leukemia,pathology_report,Histopathological examination of Acute Myeloid Leukemia specimen confirms invasive malignancy with clear surgical margins.
+N0440,P0440,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0441,P0441,Her2-Positive Breast Cancer,clinical_note,Histopathological examination of Her2-Positive Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0442,P0442,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0443,P0443,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0444,P0444,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0445,P0445,Gastric Adenocarcinoma,pathology_report,Histopathological examination of Gastric Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0446,P0446,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms invasive malignancy with clear surgical margins.
+N0447,P0447,Prostate Adenocarcinoma,consultation_record,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0448,P0448,Renal Cell Carcinoma,pathology_report,Histopathological examination of Renal Cell Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0449,P0449,Pancreatic Ductal Adenocarcinoma,pathology_report,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0450,P0450,Ovarian High-Grade Serous Carcinoma,pathology_report,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0451,P0451,Invasive Ductal Breast Cancer,pathology_report,Histopathological examination of Invasive Ductal Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0452,P0452,Glioblastoma Multiforme,clinical_note,Histopathological examination of Glioblastoma Multiforme specimen confirms invasive malignancy with clear surgical margins.
+N0453,P0453,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0454,P0454,Glioblastoma Multiforme,pathology_report,Histopathological examination of Glioblastoma Multiforme specimen confirms high grade malignant features with necrotic foci.
+N0455,P0455,Pancreatic Ductal Adenocarcinoma,clinical_note,Histopathological examination of Pancreatic Ductal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0456,P0456,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms residual malignant cells at the tumor margin.
+N0457,P0457,Triple-Negative Breast Cancer,clinical_note,Histopathological examination of Triple-Negative Breast Cancer specimen confirms no evidence of lymphovascular invasion.
+N0458,P0458,Gastric Adenocarcinoma,pathology_report,Histopathological examination of Gastric Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0459,P0459,Colorectal Adenocarcinoma,pathology_report,Histopathological examination of Colorectal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0460,P0460,Small Cell Lung Cancer,pathology_report,Histopathological examination of Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0461,P0461,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms residual malignant cells at the tumor margin.
+N0462,P0462,Metastatic Colorectal Cancer,consultation_record,Histopathological examination of Metastatic Colorectal Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0463,P0463,Her2-Positive Breast Cancer,clinical_note,Histopathological examination of Her2-Positive Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0464,P0464,Prostate Adenocarcinoma,pathology_report,Histopathological examination of Prostate Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0465,P0465,Renal Cell Carcinoma,clinical_note,Histopathological examination of Renal Cell Carcinoma specimen confirms no evidence of lymphovascular invasion.
+N0466,P0466,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms residual malignant cells at the tumor margin.
+N0467,P0467,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0468,P0468,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0469,P0469,Metastatic Colorectal Cancer,clinical_note,Histopathological examination of Metastatic Colorectal Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0470,P0470,Colorectal Adenocarcinoma,pathology_report,Histopathological examination of Colorectal Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0471,P0471,Non-Small Cell Lung Cancer,pathology_report,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0472,P0472,Renal Cell Carcinoma,clinical_note,Histopathological examination of Renal Cell Carcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0473,P0473,Acute Myeloid Leukemia,clinical_note,Histopathological examination of Acute Myeloid Leukemia specimen confirms no evidence of lymphovascular invasion.
+N0474,P0474,Triple-Negative Breast Cancer,pathology_report,Histopathological examination of Triple-Negative Breast Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0475,P0475,Metastatic Colorectal Cancer,consultation_record,Histopathological examination of Metastatic Colorectal Cancer specimen confirms no evidence of lymphovascular invasion.
+N0476,P0476,Gastric Adenocarcinoma,pathology_report,Histopathological examination of Gastric Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0477,P0477,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms high grade malignant features with necrotic foci.
+N0478,P0478,Gastric Adenocarcinoma,consultation_record,Histopathological examination of Gastric Adenocarcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0479,P0479,Metastatic Colorectal Cancer,clinical_note,Histopathological examination of Metastatic Colorectal Cancer specimen confirms no evidence of lymphovascular invasion.
+N0480,P0480,Ovarian High-Grade Serous Carcinoma,clinical_note,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms invasive malignancy with clear surgical margins.
+N0481,P0481,Renal Cell Carcinoma,clinical_note,Histopathological examination of Renal Cell Carcinoma specimen confirms high grade malignant features with necrotic foci.
+N0482,P0482,Her2-Positive Breast Cancer,pathology_report,Histopathological examination of Her2-Positive Breast Cancer specimen confirms high grade malignant features with necrotic foci.
+N0483,P0483,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms high grade malignant features with necrotic foci.
+N0484,P0484,Her2-Positive Breast Cancer,consultation_record,Histopathological examination of Her2-Positive Breast Cancer specimen confirms invasive malignancy with clear surgical margins.
+N0485,P0485,Metastatic Colorectal Cancer,clinical_note,Histopathological examination of Metastatic Colorectal Cancer specimen confirms no evidence of lymphovascular invasion.
+N0486,P0486,Prostate Adenocarcinoma,clinical_note,Histopathological examination of Prostate Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0487,P0487,Renal Cell Carcinoma,pathology_report,Histopathological examination of Renal Cell Carcinoma specimen confirms residual malignant cells at the tumor margin.
+N0488,P0488,Non-Small Cell Lung Cancer,pathology_report,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0489,P0489,Ovarian High-Grade Serous Carcinoma,pathology_report,Histopathological examination of Ovarian High-Grade Serous Carcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0490,P0490,Non-Small Cell Lung Cancer,consultation_record,Histopathological examination of Non-Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0491,P0491,Metastatic Melanoma,clinical_note,Histopathological examination of Metastatic Melanoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0492,P0492,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0493,P0493,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0494,P0494,Small Cell Lung Cancer,consultation_record,Histopathological examination of Small Cell Lung Cancer specimen confirms residual malignant cells at the tumor margin.
+N0495,P0495,Colorectal Adenocarcinoma,clinical_note,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0496,P0496,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.
+N0497,P0497,Gastric Adenocarcinoma,clinical_note,Histopathological examination of Gastric Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0498,P0498,Colorectal Adenocarcinoma,pathology_report,Histopathological examination of Colorectal Adenocarcinoma specimen confirms no evidence of lymphovascular invasion.
+N0499,P0499,Multiple Myeloma,clinical_note,Histopathological examination of Multiple Myeloma specimen confirms invasive malignancy with clear surgical margins.
+N0500,P0500,Colorectal Adenocarcinoma,consultation_record,Histopathological examination of Colorectal Adenocarcinoma specimen confirms mild inflammatory infiltrate and reactive atypia.

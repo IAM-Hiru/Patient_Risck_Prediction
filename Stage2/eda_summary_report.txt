@@ -1,0 +1,60 @@
+============================================================
+STAGE 02 MULTI-MODAL CANCER PROGRESSION - EDA SUMMARY REPORT
+============================================================
+
+1. DATASET OVERVIEW
+   - Total Sequence Rows  : 3000
+   - Unique Patients      : 600
+   - Cancer Types Count   : 8
+   - Cancer Types List    : ['BLCA', 'BRCA', 'COAD', 'LUAD', 'LUSC', 'PRAD', 'SKCM', 'STAD']
+
+2. DATA INTEGRITY CHECKS
+   - Missing Values Count :
+       * patient_id: 0
+       * cancer_type: 0
+       * sequence_step: 0
+       * timepoint_month: 0
+       * pathology_img_file: 0
+       * ct_img_file: 0
+       * ctDNA_vaf_pct: 0
+       * ct_tumor_vol_cm3: 0
+       * biomarker_ng_ml: 0
+       * wsi_atypia_score: 0
+       * label_progression: 0
+   - Sequence Continuity Verification (5 timepoints/patient):
+       [PASS] All patients have exactly 5 consecutive timepoints (steps 0 to 4).
+   - Step Index Integrity (0, 1, 2, 3, 4): [PASS]
+
+3. NUMERICAL FEATURE SUMMARY STATISTICS
+                       mean        std     min  median     max
+ctDNA_vaf_pct      4.357255   2.493833   1.481     4.0   9.766
+ct_tumor_vol_cm3  32.678580  18.703962  11.100    30.0  73.240
+biomarker_ng_ml   21.785720  12.469806   7.400    20.0  48.830
+wsi_atypia_score   0.401083   0.115728   0.243     0.4   0.625
+
+   --- Numerical Features Grouped by Progression Label (0 vs 1) ---
+                   ctDNA_vaf_pct  ct_tumor_vol_cm3  biomarker_ng_ml  wsi_atypia_score
+label_progression                                                                    
+0                       3.051246         22.883206        15.255471          0.342711
+1                       7.942667         59.570000        39.713333          0.561333
+
+
+4. IMAGE FILE EXISTENCE VERIFICATION
+   - Missing Pathology Images : 0 / 3000
+   - Missing 2D CT Images     : 0 / 3000
+   [PASS] 100% of histology and CT image files verified in disk!
+
+
+5. CANCER TYPE SUBGROUP PROGRESSION DISTRIBUTION
+Cancer Type  | Total Samples  | Progression (1)  | Progression Rate (%)
+----------------------------------------------------------------------
+BLCA         | 375            | 114              | 30.40               
+BRCA         | 375            | 90               | 24.00               
+COAD         | 375            | 99               | 26.40               
+LUAD         | 375            | 105              | 28.00               
+LUSC         | 375            | 111              | 29.60               
+PRAD         | 375            | 84               | 22.40               
+SKCM         | 375            | 96               | 25.60               
+STAD         | 375            | 102              | 27.20               
+----------------------------------------------------------------------
+OVERALL      | 3000           | 801              | 26.70               

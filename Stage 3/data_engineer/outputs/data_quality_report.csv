@@ -1,0 +1,6 @@
+dataset_name,original_record_count,final_record_count,duplicates_removed,missing_values,invalid_records,invalid_labels,empty_texts,entity_annotation_errors,leakage_findings
+urgency_symptom_logs,10250,10000,100,50,150,50,100,0,No leakage detected.
+ner_training_data,10250,10000,100,0,150,0,150,0,None
+drug_adverse_events,1000,1000,0,0,0,0,0,0,None
+gene_mutation_dictionary,16,16,0,0,0,0,0,0,None
+oncology_guideline_chunks,8,8,0,0,0,0,0,0,None

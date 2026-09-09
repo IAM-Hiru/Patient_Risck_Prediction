@@ -1,0 +1,16 @@
+{
+  "model_type": "TF-IDF+LogisticRegression",
+  "label_map": {
+    "LOW": 0,
+    "MODERATE": 1,
+    "HIGH": 2,
+    "CRITICAL": 3
+  },
+  "id_map": {
+    "0": "LOW",
+    "1": "MODERATE",
+    "2": "HIGH",
+    "3": "CRITICAL"
+  },
+  "path": "C:\\Users\\Home\\Downloads\\phase2 demo\\Oncology_Medicine_Prediction\\Stage 3\\nlp_engineer\\src\\..\\models\\urgency\\baseline_tfidf_lr.pkl"
+}

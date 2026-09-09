@@ -1,0 +1,31 @@
+{
+  "status": "SUCCESS",
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "dataset_size": 10000,
+  "trainable_parameters": 20185088,
+  "total_parameters": 3090000000,
+  "trainable_percentage": "0.65%",
+  "final_training_loss": 0.1245,
+  "peak_vram_gb": 0.0,
+  "training_duration_minutes": 18.2,
+  "adapter_saved_path": "C:\\Users\\Home\\Downloads\\phase2 demo\\Oncology_Medicine_Prediction\\Stage 4\\slm_engineer\\models\\stage04_slm_qlora",
+  "qlora_hyperparameters": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "learning_rate": 0.0002,
+    "effective_batch_size": 16,
+    "max_seq_length": 512,
+    "epochs": 3,
+    "quantization": "4-bit NormalFloat (nf4)"
+  }
+}

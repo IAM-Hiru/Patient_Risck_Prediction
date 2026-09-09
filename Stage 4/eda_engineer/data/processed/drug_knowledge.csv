@@ -1,0 +1,1001 @@
+event_id,drug_name,adverse_event,reaction,severity,route,dosage
+AE00001,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00002,osimertinib,nausea,nausea,moderate,oral,80 mg
+AE00003,osimertinib,diarrhea,diarrhea,moderate,oral,80 mg
+AE00004,osimertinib,vomiting,vomiting,high,oral,80 mg
+AE00005,osimertinib,rash,rash,moderate,oral,80 mg
+AE00006,osimertinib,fever,fever,moderate,oral,80 mg
+AE00007,osimertinib,neuropathy,peripheral neuropathy,high,oral,80 mg
+AE00008,osimertinib,neutropenia,neutropenia,high,oral,80 mg
+AE00009,osimertinib,anemia,anemia,moderate,oral,80 mg
+AE00010,osimertinib,infusion reaction,hypersensitivity,critical,oral,80 mg
+AE00011,osimertinib,chest tightness,dyspnea,critical,oral,80 mg
+AE00012,osimertinib,stomatitis,oral mucositis,moderate,oral,80 mg
+AE00013,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00014,erlotinib,nausea,nausea,moderate,oral,150 mg
+AE00015,erlotinib,diarrhea,diarrhea,moderate,oral,150 mg
+AE00016,erlotinib,vomiting,vomiting,high,oral,150 mg
+AE00017,erlotinib,rash,rash,moderate,oral,150 mg
+AE00018,erlotinib,fever,fever,moderate,oral,150 mg
+AE00019,erlotinib,neuropathy,peripheral neuropathy,high,oral,150 mg
+AE00020,erlotinib,neutropenia,neutropenia,high,oral,150 mg
+AE00021,erlotinib,anemia,anemia,moderate,oral,150 mg
+AE00022,erlotinib,infusion reaction,hypersensitivity,critical,oral,150 mg
+AE00023,erlotinib,chest tightness,dyspnea,critical,oral,150 mg
+AE00024,erlotinib,stomatitis,oral mucositis,moderate,oral,150 mg
+AE00025,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00026,pembrolizumab,nausea,nausea,moderate,iv,200 mg
+AE00027,pembrolizumab,diarrhea,diarrhea,moderate,iv,200 mg
+AE00028,pembrolizumab,vomiting,vomiting,high,iv,200 mg
+AE00029,pembrolizumab,rash,rash,moderate,iv,200 mg
+AE00030,pembrolizumab,fever,fever,moderate,iv,200 mg
+AE00031,pembrolizumab,neuropathy,peripheral neuropathy,high,iv,200 mg
+AE00032,pembrolizumab,neutropenia,neutropenia,high,iv,200 mg
+AE00033,pembrolizumab,anemia,anemia,moderate,iv,200 mg
+AE00034,pembrolizumab,infusion reaction,hypersensitivity,critical,iv,200 mg
+AE00035,pembrolizumab,chest tightness,dyspnea,critical,iv,200 mg
+AE00036,pembrolizumab,stomatitis,oral mucositis,moderate,iv,200 mg
+AE00037,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00038,nivolumab,nausea,nausea,moderate,iv,240 mg
+AE00039,nivolumab,diarrhea,diarrhea,moderate,iv,240 mg
+AE00040,nivolumab,vomiting,vomiting,high,iv,240 mg
+AE00041,nivolumab,rash,rash,moderate,iv,240 mg
+AE00042,nivolumab,fever,fever,moderate,iv,240 mg
+AE00043,nivolumab,neuropathy,peripheral neuropathy,high,iv,240 mg
+AE00044,nivolumab,neutropenia,neutropenia,high,iv,240 mg
+AE00045,nivolumab,anemia,anemia,moderate,iv,240 mg
+AE00046,nivolumab,infusion reaction,hypersensitivity,critical,iv,240 mg
+AE00047,nivolumab,chest tightness,dyspnea,critical,iv,240 mg
+AE00048,nivolumab,stomatitis,oral mucositis,moderate,iv,240 mg
+AE00049,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00050,atezolizumab,nausea,nausea,moderate,iv,1200 mg
+AE00051,atezolizumab,diarrhea,diarrhea,moderate,iv,1200 mg
+AE00052,atezolizumab,vomiting,vomiting,high,iv,1200 mg
+AE00053,atezolizumab,rash,rash,moderate,iv,1200 mg
+AE00054,atezolizumab,fever,fever,moderate,iv,1200 mg
+AE00055,atezolizumab,neuropathy,peripheral neuropathy,high,iv,1200 mg
+AE00056,atezolizumab,neutropenia,neutropenia,high,iv,1200 mg
+AE00057,atezolizumab,anemia,anemia,moderate,iv,1200 mg
+AE00058,atezolizumab,infusion reaction,hypersensitivity,critical,iv,1200 mg
+AE00059,atezolizumab,chest tightness,dyspnea,critical,iv,1200 mg
+AE00060,atezolizumab,stomatitis,oral mucositis,moderate,iv,1200 mg
+AE00061,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00062,durvalumab,nausea,nausea,moderate,iv,10 mg/kg
+AE00063,durvalumab,diarrhea,diarrhea,moderate,iv,10 mg/kg
+AE00064,durvalumab,vomiting,vomiting,high,iv,10 mg/kg
+AE00065,durvalumab,rash,rash,moderate,iv,10 mg/kg
+AE00066,durvalumab,fever,fever,moderate,iv,10 mg/kg
+AE00067,durvalumab,neuropathy,peripheral neuropathy,high,iv,10 mg/kg
+AE00068,durvalumab,neutropenia,neutropenia,high,iv,10 mg/kg
+AE00069,durvalumab,anemia,anemia,moderate,iv,10 mg/kg
+AE00070,durvalumab,infusion reaction,hypersensitivity,critical,iv,10 mg/kg
+AE00071,durvalumab,chest tightness,dyspnea,critical,iv,10 mg/kg
+AE00072,durvalumab,stomatitis,oral mucositis,moderate,iv,10 mg/kg
+AE00073,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00074,ipilimumab,nausea,nausea,moderate,iv,3 mg/kg
+AE00075,ipilimumab,diarrhea,diarrhea,moderate,iv,3 mg/kg
+AE00076,ipilimumab,vomiting,vomiting,high,iv,3 mg/kg
+AE00077,ipilimumab,rash,rash,moderate,iv,3 mg/kg
+AE00078,ipilimumab,fever,fever,moderate,iv,3 mg/kg
+AE00079,ipilimumab,neuropathy,peripheral neuropathy,high,iv,3 mg/kg
+AE00080,ipilimumab,neutropenia,neutropenia,high,iv,3 mg/kg
+AE00081,ipilimumab,anemia,anemia,moderate,iv,3 mg/kg
+AE00082,ipilimumab,infusion reaction,hypersensitivity,critical,iv,3 mg/kg
+AE00083,ipilimumab,chest tightness,dyspnea,critical,iv,3 mg/kg
+AE00084,ipilimumab,stomatitis,oral mucositis,moderate,iv,3 mg/kg
+AE00085,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00086,trastuzumab,nausea,nausea,moderate,iv,6 mg/kg
+AE00087,trastuzumab,diarrhea,diarrhea,moderate,iv,6 mg/kg
+AE00088,trastuzumab,vomiting,vomiting,high,iv,6 mg/kg
+AE00089,trastuzumab,rash,rash,moderate,iv,6 mg/kg
+AE00090,trastuzumab,fever,fever,moderate,iv,6 mg/kg
+AE00091,trastuzumab,neuropathy,peripheral neuropathy,high,iv,6 mg/kg
+AE00092,trastuzumab,neutropenia,neutropenia,high,iv,6 mg/kg
+AE00093,trastuzumab,anemia,anemia,moderate,iv,6 mg/kg
+AE00094,trastuzumab,infusion reaction,hypersensitivity,critical,iv,6 mg/kg
+AE00095,trastuzumab,chest tightness,dyspnea,critical,iv,6 mg/kg
+AE00096,trastuzumab,stomatitis,oral mucositis,moderate,iv,6 mg/kg
+AE00097,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00098,pertuzumab,nausea,nausea,moderate,iv,420 mg
+AE00099,pertuzumab,diarrhea,diarrhea,moderate,iv,420 mg
+AE00100,pertuzumab,vomiting,vomiting,high,iv,420 mg
+AE00101,pertuzumab,rash,rash,moderate,iv,420 mg
+AE00102,pertuzumab,fever,fever,moderate,iv,420 mg
+AE00103,pertuzumab,neuropathy,peripheral neuropathy,high,iv,420 mg
+AE00104,pertuzumab,neutropenia,neutropenia,high,iv,420 mg
+AE00105,pertuzumab,anemia,anemia,moderate,iv,420 mg
+AE00106,pertuzumab,infusion reaction,hypersensitivity,critical,iv,420 mg
+AE00107,pertuzumab,chest tightness,dyspnea,critical,iv,420 mg
+AE00108,pertuzumab,stomatitis,oral mucositis,moderate,iv,420 mg
+AE00109,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00110,paclitaxel,nausea,nausea,moderate,iv,175 mg/m2
+AE00111,paclitaxel,diarrhea,diarrhea,moderate,iv,175 mg/m2
+AE00112,paclitaxel,vomiting,vomiting,high,iv,175 mg/m2
+AE00113,paclitaxel,rash,rash,moderate,iv,175 mg/m2
+AE00114,paclitaxel,fever,fever,moderate,iv,175 mg/m2
+AE00115,paclitaxel,neuropathy,peripheral neuropathy,high,iv,175 mg/m2
+AE00116,paclitaxel,neutropenia,neutropenia,high,iv,175 mg/m2
+AE00117,paclitaxel,anemia,anemia,moderate,iv,175 mg/m2
+AE00118,paclitaxel,infusion reaction,hypersensitivity,critical,iv,175 mg/m2
+AE00119,paclitaxel,chest tightness,dyspnea,critical,iv,175 mg/m2
+AE00120,paclitaxel,stomatitis,oral mucositis,moderate,iv,175 mg/m2
+AE00121,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00122,docetaxel,nausea,nausea,moderate,iv,75 mg/m2
+AE00123,docetaxel,diarrhea,diarrhea,moderate,iv,75 mg/m2
+AE00124,docetaxel,vomiting,vomiting,high,iv,75 mg/m2
+AE00125,docetaxel,rash,rash,moderate,iv,75 mg/m2
+AE00126,docetaxel,fever,fever,moderate,iv,75 mg/m2
+AE00127,docetaxel,neuropathy,peripheral neuropathy,high,iv,75 mg/m2
+AE00128,docetaxel,neutropenia,neutropenia,high,iv,75 mg/m2
+AE00129,docetaxel,anemia,anemia,moderate,iv,75 mg/m2
+AE00130,docetaxel,infusion reaction,hypersensitivity,critical,iv,75 mg/m2
+AE00131,docetaxel,chest tightness,dyspnea,critical,iv,75 mg/m2
+AE00132,docetaxel,stomatitis,oral mucositis,moderate,iv,75 mg/m2
+AE00133,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00134,cisplatin,nausea,nausea,moderate,iv,75 mg/m2
+AE00135,cisplatin,diarrhea,diarrhea,moderate,iv,75 mg/m2
+AE00136,cisplatin,vomiting,vomiting,high,iv,75 mg/m2
+AE00137,cisplatin,rash,rash,moderate,iv,75 mg/m2
+AE00138,cisplatin,fever,fever,moderate,iv,75 mg/m2
+AE00139,cisplatin,neuropathy,peripheral neuropathy,high,iv,75 mg/m2
+AE00140,cisplatin,neutropenia,neutropenia,high,iv,75 mg/m2
+AE00141,cisplatin,anemia,anemia,moderate,iv,75 mg/m2
+AE00142,cisplatin,infusion reaction,hypersensitivity,critical,iv,75 mg/m2
+AE00143,cisplatin,chest tightness,dyspnea,critical,iv,75 mg/m2
+AE00144,cisplatin,stomatitis,oral mucositis,moderate,iv,75 mg/m2
+AE00145,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00146,carboplatin,nausea,nausea,moderate,iv,auc 5
+AE00147,carboplatin,diarrhea,diarrhea,moderate,iv,auc 5
+AE00148,carboplatin,vomiting,vomiting,high,iv,auc 5
+AE00149,carboplatin,rash,rash,moderate,iv,auc 5
+AE00150,carboplatin,fever,fever,moderate,iv,auc 5
+AE00151,carboplatin,neuropathy,peripheral neuropathy,high,iv,auc 5
+AE00152,carboplatin,neutropenia,neutropenia,high,iv,auc 5
+AE00153,carboplatin,anemia,anemia,moderate,iv,auc 5
+AE00154,carboplatin,infusion reaction,hypersensitivity,critical,iv,auc 5
+AE00155,carboplatin,chest tightness,dyspnea,critical,iv,auc 5
+AE00156,carboplatin,stomatitis,oral mucositis,moderate,iv,auc 5
+AE00157,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00158,oxaliplatin,nausea,nausea,moderate,iv,85 mg/m2
+AE00159,oxaliplatin,diarrhea,diarrhea,moderate,iv,85 mg/m2
+AE00160,oxaliplatin,vomiting,vomiting,high,iv,85 mg/m2
+AE00161,oxaliplatin,rash,rash,moderate,iv,85 mg/m2
+AE00162,oxaliplatin,fever,fever,moderate,iv,85 mg/m2
+AE00163,oxaliplatin,neuropathy,peripheral neuropathy,high,iv,85 mg/m2
+AE00164,oxaliplatin,neutropenia,neutropenia,high,iv,85 mg/m2
+AE00165,oxaliplatin,anemia,anemia,moderate,iv,85 mg/m2
+AE00166,oxaliplatin,infusion reaction,hypersensitivity,critical,iv,85 mg/m2
+AE00167,oxaliplatin,chest tightness,dyspnea,critical,iv,85 mg/m2
+AE00168,oxaliplatin,stomatitis,oral mucositis,moderate,iv,85 mg/m2
+AE00169,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00170,doxorubicin,nausea,nausea,moderate,iv,60 mg/m2
+AE00171,doxorubicin,diarrhea,diarrhea,moderate,iv,60 mg/m2
+AE00172,doxorubicin,vomiting,vomiting,high,iv,60 mg/m2
+AE00173,doxorubicin,rash,rash,moderate,iv,60 mg/m2
+AE00174,doxorubicin,fever,fever,moderate,iv,60 mg/m2
+AE00175,doxorubicin,neuropathy,peripheral neuropathy,high,iv,60 mg/m2
+AE00176,doxorubicin,neutropenia,neutropenia,high,iv,60 mg/m2
+AE00177,doxorubicin,anemia,anemia,moderate,iv,60 mg/m2
+AE00178,doxorubicin,infusion reaction,hypersensitivity,critical,iv,60 mg/m2
+AE00179,doxorubicin,chest tightness,dyspnea,critical,iv,60 mg/m2
+AE00180,doxorubicin,stomatitis,oral mucositis,moderate,iv,60 mg/m2
+AE00181,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00182,olaparib,nausea,nausea,moderate,oral,300 mg
+AE00183,olaparib,diarrhea,diarrhea,moderate,oral,300 mg
+AE00184,olaparib,vomiting,vomiting,high,oral,300 mg
+AE00185,olaparib,rash,rash,moderate,oral,300 mg
+AE00186,olaparib,fever,fever,moderate,oral,300 mg
+AE00187,olaparib,neuropathy,peripheral neuropathy,high,oral,300 mg
+AE00188,olaparib,neutropenia,neutropenia,high,oral,300 mg
+AE00189,olaparib,anemia,anemia,moderate,oral,300 mg
+AE00190,olaparib,infusion reaction,hypersensitivity,critical,oral,300 mg
+AE00191,olaparib,chest tightness,dyspnea,critical,oral,300 mg
+AE00192,olaparib,stomatitis,oral mucositis,moderate,oral,300 mg
+AE00193,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00194,niraparib,nausea,nausea,moderate,oral,200 mg
+AE00195,niraparib,diarrhea,diarrhea,moderate,oral,200 mg
+AE00196,niraparib,vomiting,vomiting,high,oral,200 mg
+AE00197,niraparib,rash,rash,moderate,oral,200 mg
+AE00198,niraparib,fever,fever,moderate,oral,200 mg
+AE00199,niraparib,neuropathy,peripheral neuropathy,high,oral,200 mg
+AE00200,niraparib,neutropenia,neutropenia,high,oral,200 mg
+AE00201,niraparib,anemia,anemia,moderate,oral,200 mg
+AE00202,niraparib,infusion reaction,hypersensitivity,critical,oral,200 mg
+AE00203,niraparib,chest tightness,dyspnea,critical,oral,200 mg
+AE00204,niraparib,stomatitis,oral mucositis,moderate,oral,200 mg
+AE00205,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00206,gemcitabine,nausea,nausea,moderate,iv,1000 mg/m2
+AE00207,gemcitabine,diarrhea,diarrhea,moderate,iv,1000 mg/m2
+AE00208,gemcitabine,vomiting,vomiting,high,iv,1000 mg/m2
+AE00209,gemcitabine,rash,rash,moderate,iv,1000 mg/m2
+AE00210,gemcitabine,fever,fever,moderate,iv,1000 mg/m2
+AE00211,gemcitabine,neuropathy,peripheral neuropathy,high,iv,1000 mg/m2
+AE00212,gemcitabine,neutropenia,neutropenia,high,iv,1000 mg/m2
+AE00213,gemcitabine,anemia,anemia,moderate,iv,1000 mg/m2
+AE00214,gemcitabine,infusion reaction,hypersensitivity,critical,iv,1000 mg/m2
+AE00215,gemcitabine,chest tightness,dyspnea,critical,iv,1000 mg/m2
+AE00216,gemcitabine,stomatitis,oral mucositis,moderate,iv,1000 mg/m2
+AE00217,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00218,capecitabine,nausea,nausea,moderate,oral,1000 mg/m2
+AE00219,capecitabine,diarrhea,diarrhea,moderate,oral,1000 mg/m2
+AE00220,capecitabine,vomiting,vomiting,high,oral,1000 mg/m2
+AE00221,capecitabine,rash,rash,moderate,oral,1000 mg/m2
+AE00222,capecitabine,fever,fever,moderate,oral,1000 mg/m2
+AE00223,capecitabine,neuropathy,peripheral neuropathy,high,oral,1000 mg/m2
+AE00224,capecitabine,neutropenia,neutropenia,high,oral,1000 mg/m2
+AE00225,capecitabine,anemia,anemia,moderate,oral,1000 mg/m2
+AE00226,capecitabine,infusion reaction,hypersensitivity,critical,oral,1000 mg/m2
+AE00227,capecitabine,chest tightness,dyspnea,critical,oral,1000 mg/m2
+AE00228,capecitabine,stomatitis,oral mucositis,moderate,oral,1000 mg/m2
+AE00229,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00230,pemetrexed,nausea,nausea,moderate,iv,500 mg/m2
+AE00231,pemetrexed,diarrhea,diarrhea,moderate,iv,500 mg/m2
+AE00232,pemetrexed,vomiting,vomiting,high,iv,500 mg/m2
+AE00233,pemetrexed,rash,rash,moderate,iv,500 mg/m2
+AE00234,pemetrexed,fever,fever,moderate,iv,500 mg/m2
+AE00235,pemetrexed,neuropathy,peripheral neuropathy,high,iv,500 mg/m2
+AE00236,pemetrexed,neutropenia,neutropenia,high,iv,500 mg/m2
+AE00237,pemetrexed,anemia,anemia,moderate,iv,500 mg/m2
+AE00238,pemetrexed,infusion reaction,hypersensitivity,critical,iv,500 mg/m2
+AE00239,pemetrexed,chest tightness,dyspnea,critical,iv,500 mg/m2
+AE00240,pemetrexed,stomatitis,oral mucositis,moderate,iv,500 mg/m2
+AE00241,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00242,irinotecan,nausea,nausea,moderate,iv,180 mg/m2
+AE00243,irinotecan,diarrhea,diarrhea,moderate,iv,180 mg/m2
+AE00244,irinotecan,vomiting,vomiting,high,iv,180 mg/m2
+AE00245,irinotecan,rash,rash,moderate,iv,180 mg/m2
+AE00246,irinotecan,fever,fever,moderate,iv,180 mg/m2
+AE00247,irinotecan,neuropathy,peripheral neuropathy,high,iv,180 mg/m2
+AE00248,irinotecan,neutropenia,neutropenia,high,iv,180 mg/m2
+AE00249,irinotecan,anemia,anemia,moderate,iv,180 mg/m2
+AE00250,irinotecan,infusion reaction,hypersensitivity,critical,iv,180 mg/m2
+AE00251,irinotecan,chest tightness,dyspnea,critical,iv,180 mg/m2
+AE00252,irinotecan,stomatitis,oral mucositis,moderate,iv,180 mg/m2
+AE00253,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00254,bevacizumab,nausea,nausea,moderate,iv,15 mg/kg
+AE00255,bevacizumab,diarrhea,diarrhea,moderate,iv,15 mg/kg
+AE00256,bevacizumab,vomiting,vomiting,high,iv,15 mg/kg
+AE00257,bevacizumab,rash,rash,moderate,iv,15 mg/kg
+AE00258,bevacizumab,fever,fever,moderate,iv,15 mg/kg
+AE00259,bevacizumab,neuropathy,peripheral neuropathy,high,iv,15 mg/kg
+AE00260,bevacizumab,neutropenia,neutropenia,high,iv,15 mg/kg
+AE00261,bevacizumab,anemia,anemia,moderate,iv,15 mg/kg
+AE00262,bevacizumab,infusion reaction,hypersensitivity,critical,iv,15 mg/kg
+AE00263,bevacizumab,chest tightness,dyspnea,critical,iv,15 mg/kg
+AE00264,bevacizumab,stomatitis,oral mucositis,moderate,iv,15 mg/kg
+AE00265,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00266,palbociclib,nausea,nausea,moderate,oral,125 mg
+AE00267,palbociclib,diarrhea,diarrhea,moderate,oral,125 mg
+AE00268,palbociclib,vomiting,vomiting,high,oral,125 mg
+AE00269,palbociclib,rash,rash,moderate,oral,125 mg
+AE00270,palbociclib,fever,fever,moderate,oral,125 mg
+AE00271,palbociclib,neuropathy,peripheral neuropathy,high,oral,125 mg
+AE00272,palbociclib,neutropenia,neutropenia,high,oral,125 mg
+AE00273,palbociclib,anemia,anemia,moderate,oral,125 mg
+AE00274,palbociclib,infusion reaction,hypersensitivity,critical,oral,125 mg
+AE00275,palbociclib,chest tightness,dyspnea,critical,oral,125 mg
+AE00276,palbociclib,stomatitis,oral mucositis,moderate,oral,125 mg
+AE00277,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00278,ribociclib,nausea,nausea,moderate,oral,600 mg
+AE00279,ribociclib,diarrhea,diarrhea,moderate,oral,600 mg
+AE00280,ribociclib,vomiting,vomiting,high,oral,600 mg
+AE00281,ribociclib,rash,rash,moderate,oral,600 mg
+AE00282,ribociclib,fever,fever,moderate,oral,600 mg
+AE00283,ribociclib,neuropathy,peripheral neuropathy,high,oral,600 mg
+AE00284,ribociclib,neutropenia,neutropenia,high,oral,600 mg
+AE00285,ribociclib,anemia,anemia,moderate,oral,600 mg
+AE00286,ribociclib,infusion reaction,hypersensitivity,critical,oral,600 mg
+AE00287,ribociclib,chest tightness,dyspnea,critical,oral,600 mg
+AE00288,ribociclib,stomatitis,oral mucositis,moderate,oral,600 mg
+AE00289,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00290,crizotinib,nausea,nausea,moderate,oral,250 mg
+AE00291,crizotinib,diarrhea,diarrhea,moderate,oral,250 mg
+AE00292,crizotinib,vomiting,vomiting,high,oral,250 mg
+AE00293,crizotinib,rash,rash,moderate,oral,250 mg
+AE00294,crizotinib,fever,fever,moderate,oral,250 mg
+AE00295,crizotinib,neuropathy,peripheral neuropathy,high,oral,250 mg
+AE00296,crizotinib,neutropenia,neutropenia,high,oral,250 mg
+AE00297,crizotinib,anemia,anemia,moderate,oral,250 mg
+AE00298,crizotinib,infusion reaction,hypersensitivity,critical,oral,250 mg
+AE00299,crizotinib,chest tightness,dyspnea,critical,oral,250 mg
+AE00300,crizotinib,stomatitis,oral mucositis,moderate,oral,250 mg
+AE00301,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00302,alectinib,nausea,nausea,moderate,oral,600 mg
+AE00303,alectinib,diarrhea,diarrhea,moderate,oral,600 mg
+AE00304,alectinib,vomiting,vomiting,high,oral,600 mg
+AE00305,alectinib,rash,rash,moderate,oral,600 mg
+AE00306,alectinib,fever,fever,moderate,oral,600 mg
+AE00307,alectinib,neuropathy,peripheral neuropathy,high,oral,600 mg
+AE00308,alectinib,neutropenia,neutropenia,high,oral,600 mg
+AE00309,alectinib,anemia,anemia,moderate,oral,600 mg
+AE00310,alectinib,infusion reaction,hypersensitivity,critical,oral,600 mg
+AE00311,alectinib,chest tightness,dyspnea,critical,oral,600 mg
+AE00312,alectinib,stomatitis,oral mucositis,moderate,oral,600 mg
+AE00313,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00314,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00315,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00316,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00317,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00318,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00319,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00320,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00321,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00322,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00323,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00324,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00325,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00326,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00327,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00328,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00329,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00330,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00331,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00332,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00333,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00334,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00335,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00336,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00337,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00338,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00339,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00340,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00341,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00342,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00343,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00344,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00345,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00346,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00347,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00348,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00349,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00350,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00351,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00352,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00353,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00354,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00355,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00356,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00357,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00358,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00359,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00360,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00361,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00362,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00363,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00364,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00365,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00366,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00367,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00368,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00369,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00370,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00371,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00372,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00373,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00374,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00375,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00376,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00377,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00378,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00379,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00380,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00381,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00382,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00383,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00384,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00385,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00386,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00387,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00388,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00389,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00390,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00391,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00392,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00393,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00394,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00395,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00396,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00397,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00398,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00399,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00400,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00401,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00402,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00403,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00404,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00405,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00406,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00407,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00408,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00409,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00410,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00411,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00412,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00413,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00414,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00415,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00416,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00417,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00418,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00419,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00420,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00421,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00422,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00423,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00424,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00425,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00426,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00427,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00428,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00429,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00430,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00431,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00432,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00433,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00434,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00435,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00436,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00437,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00438,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00439,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00440,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00441,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00442,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00443,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00444,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00445,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00446,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00447,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00448,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00449,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00450,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00451,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00452,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00453,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00454,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00455,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00456,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00457,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00458,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00459,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00460,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00461,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00462,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00463,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00464,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00465,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00466,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00467,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00468,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00469,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00470,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00471,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00472,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00473,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00474,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00475,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00476,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00477,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00478,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00479,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00480,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00481,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00482,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00483,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00484,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00485,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00486,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00487,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00488,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00489,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00490,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00491,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00492,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00493,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00494,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00495,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00496,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00497,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00498,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00499,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00500,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00501,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00502,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00503,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00504,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00505,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00506,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00507,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00508,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00509,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00510,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00511,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00512,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00513,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00514,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00515,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00516,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00517,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00518,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00519,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00520,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00521,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00522,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00523,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00524,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00525,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00526,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00527,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00528,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00529,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00530,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00531,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00532,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00533,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00534,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00535,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00536,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00537,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00538,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00539,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00540,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00541,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00542,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00543,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00544,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00545,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00546,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00547,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00548,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00549,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00550,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00551,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00552,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00553,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00554,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00555,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00556,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00557,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00558,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00559,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00560,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00561,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00562,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00563,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00564,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00565,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00566,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00567,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00568,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00569,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00570,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00571,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00572,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00573,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00574,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00575,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00576,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00577,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00578,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00579,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00580,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00581,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00582,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00583,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00584,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00585,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00586,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00587,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00588,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00589,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00590,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00591,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00592,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00593,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00594,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00595,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00596,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00597,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00598,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00599,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00600,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00601,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00602,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00603,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00604,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00605,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00606,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00607,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00608,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00609,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00610,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00611,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00612,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00613,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00614,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00615,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00616,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00617,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00618,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00619,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00620,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00621,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00622,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00623,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00624,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00625,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00626,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00627,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00628,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00629,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00630,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00631,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00632,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00633,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00634,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00635,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00636,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00637,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00638,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00639,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00640,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00641,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00642,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00643,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00644,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00645,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00646,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00647,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00648,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00649,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00650,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00651,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00652,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00653,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00654,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00655,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00656,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00657,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00658,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00659,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00660,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00661,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00662,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00663,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00664,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00665,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00666,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00667,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00668,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00669,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00670,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00671,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00672,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00673,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00674,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00675,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00676,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00677,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00678,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00679,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00680,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00681,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00682,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00683,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00684,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00685,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00686,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00687,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00688,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00689,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00690,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00691,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00692,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00693,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00694,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00695,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00696,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00697,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00698,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00699,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00700,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00701,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00702,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00703,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00704,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00705,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00706,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00707,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00708,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00709,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00710,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00711,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00712,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00713,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00714,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00715,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00716,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00717,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00718,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00719,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00720,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00721,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00722,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00723,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00724,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00725,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00726,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00727,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00728,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00729,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00730,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00731,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00732,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00733,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00734,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00735,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00736,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00737,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00738,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00739,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00740,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00741,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00742,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00743,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00744,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00745,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00746,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00747,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00748,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00749,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00750,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00751,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00752,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00753,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00754,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00755,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00756,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00757,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00758,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00759,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00760,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00761,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00762,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00763,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00764,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00765,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00766,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00767,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00768,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00769,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00770,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00771,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00772,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00773,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00774,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00775,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00776,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00777,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00778,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00779,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00780,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00781,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00782,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00783,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00784,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00785,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00786,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00787,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00788,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00789,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00790,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00791,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00792,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00793,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00794,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00795,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00796,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00797,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00798,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00799,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00800,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00801,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00802,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00803,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00804,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00805,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00806,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00807,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00808,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00809,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00810,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00811,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00812,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00813,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00814,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00815,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00816,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00817,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00818,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00819,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00820,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00821,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00822,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00823,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00824,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00825,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00826,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00827,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00828,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00829,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00830,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00831,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00832,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00833,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00834,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00835,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00836,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00837,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00838,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00839,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00840,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00841,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00842,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00843,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00844,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00845,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00846,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00847,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00848,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00849,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00850,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00851,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00852,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00853,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00854,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00855,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00856,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00857,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00858,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00859,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00860,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00861,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00862,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00863,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00864,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00865,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00866,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00867,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00868,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00869,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00870,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00871,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00872,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00873,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00874,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00875,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00876,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00877,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00878,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00879,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00880,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00881,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00882,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00883,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00884,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00885,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00886,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00887,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00888,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00889,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00890,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00891,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00892,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00893,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00894,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00895,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00896,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00897,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00898,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00899,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00900,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00901,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00902,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00903,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00904,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00905,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00906,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00907,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00908,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00909,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00910,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00911,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00912,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00913,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00914,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00915,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00916,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00917,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00918,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00919,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00920,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00921,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00922,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00923,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00924,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00925,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00926,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00927,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00928,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00929,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00930,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00931,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00932,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00933,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00934,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00935,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00936,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00937,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00938,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00939,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00940,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00941,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00942,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00943,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00944,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00945,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00946,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00947,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00948,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00949,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00950,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00951,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00952,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00953,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00954,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00955,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00956,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00957,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00958,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00959,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00960,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00961,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00962,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00963,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00964,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00965,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00966,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00967,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00968,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00969,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00970,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00971,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00972,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00973,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00974,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2
+AE00975,carboplatin,fatigue,fatigue,moderate,iv,auc 5
+AE00976,oxaliplatin,fatigue,fatigue,moderate,iv,85 mg/m2
+AE00977,doxorubicin,fatigue,fatigue,moderate,iv,60 mg/m2
+AE00978,olaparib,fatigue,fatigue,moderate,oral,300 mg
+AE00979,niraparib,fatigue,fatigue,moderate,oral,200 mg
+AE00980,gemcitabine,fatigue,fatigue,moderate,iv,1000 mg/m2
+AE00981,capecitabine,fatigue,fatigue,moderate,oral,1000 mg/m2
+AE00982,pemetrexed,fatigue,fatigue,moderate,iv,500 mg/m2
+AE00983,irinotecan,fatigue,fatigue,moderate,iv,180 mg/m2
+AE00984,bevacizumab,fatigue,fatigue,moderate,iv,15 mg/kg
+AE00985,palbociclib,fatigue,fatigue,moderate,oral,125 mg
+AE00986,ribociclib,fatigue,fatigue,moderate,oral,600 mg
+AE00987,crizotinib,fatigue,fatigue,moderate,oral,250 mg
+AE00988,alectinib,fatigue,fatigue,moderate,oral,600 mg
+AE00989,osimertinib,fatigue,fatigue,moderate,oral,80 mg
+AE00990,erlotinib,fatigue,fatigue,moderate,oral,150 mg
+AE00991,pembrolizumab,fatigue,fatigue,moderate,iv,200 mg
+AE00992,nivolumab,fatigue,fatigue,moderate,iv,240 mg
+AE00993,atezolizumab,fatigue,fatigue,moderate,iv,1200 mg
+AE00994,durvalumab,fatigue,fatigue,moderate,iv,10 mg/kg
+AE00995,ipilimumab,fatigue,fatigue,moderate,iv,3 mg/kg
+AE00996,trastuzumab,fatigue,fatigue,moderate,iv,6 mg/kg
+AE00997,pertuzumab,fatigue,fatigue,moderate,iv,420 mg
+AE00998,paclitaxel,fatigue,fatigue,moderate,iv,175 mg/m2
+AE00999,docetaxel,fatigue,fatigue,moderate,iv,75 mg/m2
+AE01000,cisplatin,fatigue,fatigue,moderate,iv,75 mg/m2

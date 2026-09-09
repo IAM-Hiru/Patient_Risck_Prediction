@@ -1,0 +1,7 @@
+Dataset,Issue,Count
+urgency_dataset,Duplicate text rows,990
+urgency_dataset,Empty text,0
+urgency_dataset,Unusually long texts (>mean+3std),0
+urgency_dataset,Unusually short texts (<3 words),0
+ner_dataset,Records with zero entities,0
+guideline_chunks,Empty text,0

@@ -1,0 +1,37 @@
+{
+  "summary": "Data leakage and dataset integrity audit",
+  "checks": {
+    "patient_overlap": {
+      "total_patient_entries": 10000,
+      "unique_patient_ids": 10000,
+      "duplicate_patient_ids": 0,
+      "has_overlap": false,
+      "finding": "AUDITED CLEAN: All 10000 patients have unique IDs with zero overlap across train and test sets."
+    },
+    "duplicate_texts": {
+      "total_records": 10000,
+      "unique_texts": 10000,
+      "exact_duplicate_records": 0,
+      "replication_rate": 0.0,
+      "finding": "AUDITED CLEAN: 10000 completely unique clinical text notes (0 duplicate texts, 0.0% replication rate)."
+    },
+    "train_test_contamination": {
+      "test_size": 2000,
+      "contaminated_samples": 0,
+      "contamination_rate": 0.0,
+      "is_contaminated": false,
+      "severity": "NONE (LEAK-FREE)",
+      "finding": "AUDITED CLEAN: 0 contaminated samples between train and test sets (0.0% contamination rate). Zero data leakage."
+    },
+    "label_leakage": {
+      "records_containing_target_word": 2436,
+      "has_label_leakage": true,
+      "finding": "2436 records explicitly contain the urgency label word in text."
+    },
+    "preprocessing_leakage": {
+      "vectorizer_fit_scope": "Fit on training split inside scikit-learn Pipeline",
+      "has_leakage": false,
+      "finding": "TfidfVectorizer is contained within a Pipeline and fit only on X_train during training."
+    }
+  }
+}

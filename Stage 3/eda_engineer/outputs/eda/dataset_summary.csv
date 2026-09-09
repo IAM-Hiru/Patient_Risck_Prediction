@@ -1,0 +1,6 @@
+Dataset,Records,Columns,Column Names,Data Types,Missing Values,Duplicate Rows,Class Distribution,Notes
+urgency_dataset,1000,6,"note_id, patient_id, text, urgency, adverse_event_type, urgency_encoded","object, int64",0,0,"{'LOW': 300, 'HIGH': 300, 'CRITICAL': 300, 'MODERATE': 100}","urgency column: LOW=300, HIGH=300, CRITICAL=300, MODERATE=100"
+drug_knowledge,1000,7,"event_id, drug_name, adverse_event, reaction, severity, route, dosage",object,0,0,"{'moderate': 750, 'high': 250}","severity values: moderate=750, high=250"
+gene_mutation_dictionary,8,3,"gene, mutation, associated_cancer",object,0,0,"{'BRCA1': 1, 'BRCA2': 1, 'EGFR': 1, 'KRAS': 1, 'BRAF': 1, 'ALK': 1, 'PIK3CA': 1, 'TP53': 1}","unique genes=8, unique cancers=6"
+guideline_chunks,6,4,"document_id, source, section, text",object,0,0,"{'Immune-related adverse events': 1, 'Severe infusion reaction': 1, 'Fever during systemic therapy': 1, 'Chemotherapy nausea': 1, 'Respiratory symptoms': 1, 'Medication documentation': 1}","unique sources=2, unique sections=6"
+ner_dataset,1000,5,"id, text, entities, tokens, bio_tags",object,0,0,"{'DRUG_NAME': 800, 'DOSAGE': 800, 'ADVERSE_EVENT': 400, 'GENE_MUTATION': 600, 'CANCER_TYPE': 200}",Total entities annotated: 2800

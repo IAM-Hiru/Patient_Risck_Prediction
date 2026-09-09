@@ -1,0 +1,1047 @@
+[
+  {
+    "input_text": "Patient has EGFR L858R mutation. Osimertinib 80 mg once daily was prescribed. Patient developed severe fatigue and mild rash. No fever. Patient denies nausea.",
+    "resolved_text": "Patient has EGFR L858R mutation. Osimertinib 80 mg once daily was prescribed. Patient developed severe fatigue and mild rash. No fever. Patient denies nausea.",
+    "coreferences": [],
+    "cleaned_text": "patient has egfr l858r mutation. osimertinib 80 mg once daily was prescribed. patient developed severe fatigue and mild rash. no fever. patient denies nausea.",
+    "urgency": {
+      "label": "LOW",
+      "class_id": 0,
+      "confidence": 0.92,
+      "all_scores": {
+        "LOW": 0.4526,
+        "MODERATE": 0.4428,
+        "HIGH": 0.0541,
+        "CRITICAL": 0.0505
+      },
+      "model": "baseline_tfidf_lr",
+      "rule_applied": "Active mild baseline symptom profile without acute impairment."
+    },
+    "entities": [
+      {
+        "text": "EGFR L858R",
+        "label": "GENE_MUTATION",
+        "start": 12,
+        "end": 22,
+        "confidence": 0.8,
+        "source": "rule_based",
+        "context": "Patient has EGFR L858R mutation. Osimertinib 80 mg once daily was prescribed. Patient developed severe fatigue and mild rash. No fever. Patient denies nausea.",
+        "negated": false
+      },
+      {
+        "text": "Osimertinib",
+        "label": "DRUG_NAME",
+        "start": 33,
+        "end": 44,
+        "confidence": 0.85,
+        "source": "rule_based",
+        "context": "Patient has EGFR L858R mutation. Osimertinib 80 mg once daily was prescribed. Patient developed severe fatigue and mild rash. No fever. Patient denies nausea.",
+        "negated": false
+      },
+      {
+        "text": "80 mg",
+        "label": "DOSAGE",
+        "start": 45,
+        "end": 50,
+        "confidence": 0.95,
+        "source": "rule_based",
+        "context": "Patient has EGFR L858R mutation. Osimertinib 80 mg once daily was prescribed. Patient developed severe fatigue and mild rash. No fever. Patient denies nausea.",
+        "negated": false
+      },
+      {
+        "text": "severe fatigue",
+        "label": "ADVERSE_EVENT",
+        "start": 96,
+        "end": 110,
+        "confidence": 0.85,
+        "source": "rule_based",
+        "context": "Patient has EGFR L858R mutation. Osimertinib 80 mg once daily was prescribed. Patient developed severe fatigue and mild rash. No fever. Patient denies nausea.",
+        "negated": false
+      }
+    ],
+    "drug_information": [
+      {
+        "found": true,
+        "drug": "osimertinib",
+        "matched_as": "osimertinib",
+        "match_type": "exact",
+        "records": [
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "fatigue",
+            "reaction": "fatigue",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "nausea",
+            "reaction": "nausea",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "diarrhea",
+            "reaction": "diarrhea",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "vomiting",
+            "reaction": "vomiting",
+            "severity": "high",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "rash",
+            "reaction": "rash",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "fever",
+            "reaction": "fever",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "neuropathy",
+            "reaction": "peripheral neuropathy",
+            "severity": "high",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "neutropenia",
+            "reaction": "neutropenia",
+            "severity": "high",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "anemia",
+            "reaction": "anemia",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "infusion reaction",
+            "reaction": "hypersensitivity",
+            "severity": "critical",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "chest tightness",
+            "reaction": "dyspnea",
+            "severity": "critical",
+            "route": "oral",
+            "dosage": "80 mg"
+          },
+          {
+            "drug_name": "osimertinib",
+            "adverse_event": "stomatitis",
+            "reaction": "oral mucositis",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "80 mg"
+          }
+        ]
+      }
+    ],
+    "mutation_information": [
+      {
+        "found": true,
+        "mutation": "EGFR L858R",
+        "records": [
+          {
+            "gene": "EGFR",
+            "mutation": "EGFR L858R",
+            "associated_cancer": "Lung"
+          }
+        ]
+      },
+      {
+        "found": true,
+        "gene": "egfr",
+        "records": [
+          {
+            "gene": "EGFR",
+            "mutation": "EGFR L858R",
+            "associated_cancer": "Lung"
+          },
+          {
+            "gene": "EGFR",
+            "mutation": "EGFR T790M",
+            "associated_cancer": "Lung"
+          },
+          {
+            "gene": "EGFR",
+            "mutation": "EGFR exon 19 deletion",
+            "associated_cancer": "Lung"
+          }
+        ]
+      }
+    ],
+    "guideline_matches": [
+      {
+        "document_id": "G003",
+        "source": "Oncology-SOP",
+        "section": "Fever during systemic therapy",
+        "text": "Fever after systemic anticancer treatment should prompt assessment for infection and treatment-related complications.",
+        "similarity_score": 0.4445
+      },
+      {
+        "document_id": "G004",
+        "source": "Oncology-SOP",
+        "section": "Chemotherapy nausea",
+        "text": "Assess severity, hydration, oral intake and response to antiemetic therapy when nausea or vomiting is reported.",
+        "similarity_score": 0.3751
+      },
+      {
+        "document_id": "G002",
+        "source": "FDA-inspired",
+        "section": "Severe infusion reaction",
+        "text": "A severe infusion reaction requires immediate clinical assessment and management according to applicable product labeling.",
+        "similarity_score": 0.0774
+      }
+    ],
+    "negation_detected": true,
+    "warnings": [
+      "3 entity mention(s) detected under negation/resolved scope."
+    ]
+  },
+  {
+    "input_text": "BRCA2 pathogenic variant detected. Olaparib 300 mg BID started for ovarian cancer. Patient reports persistent nausea and vomiting several times today.",
+    "resolved_text": "BRCA2 pathogenic variant detected. Olaparib 300 mg BID started for ovarian cancer. Patient reports persistent nausea and vomiting several times today.",
+    "coreferences": [],
+    "cleaned_text": "brca2 pathogenic variant detected. olaparib 300 mg twice daily started for ovarian cancer. patient reports persistent nausea and vomiting several times today.",
+    "urgency": {
+      "label": "HIGH",
+      "class_id": 2,
+      "confidence": 0.95,
+      "all_scores": {
+        "LOW": 0.0498,
+        "MODERATE": 0.1449,
+        "HIGH": 0.7849,
+        "CRITICAL": 0.0204
+      },
+      "model": "baseline_tfidf_lr",
+      "rule_applied": "Active high-grade systemic toxicity cue detected."
+    },
+    "entities": [
+      {
+        "text": "BRCA2 pathogenic variant",
+        "label": "GENE_MUTATION",
+        "start": 0,
+        "end": 24,
+        "confidence": 0.8,
+        "source": "rule_based"
+      },
+      {
+        "text": "Olaparib",
+        "label": "DRUG_NAME",
+        "start": 35,
+        "end": 43,
+        "confidence": 0.85,
+        "source": "rule_based"
+      },
+      {
+        "text": "300 mg",
+        "label": "DOSAGE",
+        "start": 44,
+        "end": 50,
+        "confidence": 0.95,
+        "source": "rule_based"
+      },
+      {
+        "text": "ovarian cancer",
+        "label": "CANCER_TYPE",
+        "start": 67,
+        "end": 81,
+        "confidence": 0.85,
+        "source": "rule_based"
+      },
+      {
+        "text": "nausea",
+        "label": "ADVERSE_EVENT",
+        "start": 110,
+        "end": 116,
+        "confidence": 0.85,
+        "source": "rule_based"
+      },
+      {
+        "text": "vomiting",
+        "label": "ADVERSE_EVENT",
+        "start": 121,
+        "end": 129,
+        "confidence": 0.85,
+        "source": "rule_based"
+      }
+    ],
+    "drug_information": [
+      {
+        "found": true,
+        "drug": "olaparib",
+        "matched_as": "olaparib",
+        "match_type": "exact",
+        "records": [
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "fatigue",
+            "reaction": "fatigue",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "nausea",
+            "reaction": "nausea",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "diarrhea",
+            "reaction": "diarrhea",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "vomiting",
+            "reaction": "vomiting",
+            "severity": "high",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "rash",
+            "reaction": "rash",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "fever",
+            "reaction": "fever",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "neuropathy",
+            "reaction": "peripheral neuropathy",
+            "severity": "high",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "neutropenia",
+            "reaction": "neutropenia",
+            "severity": "high",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "anemia",
+            "reaction": "anemia",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "infusion reaction",
+            "reaction": "hypersensitivity",
+            "severity": "critical",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "chest tightness",
+            "reaction": "dyspnea",
+            "severity": "critical",
+            "route": "oral",
+            "dosage": "300 mg"
+          },
+          {
+            "drug_name": "olaparib",
+            "adverse_event": "stomatitis",
+            "reaction": "oral mucositis",
+            "severity": "moderate",
+            "route": "oral",
+            "dosage": "300 mg"
+          }
+        ]
+      }
+    ],
+    "mutation_information": [
+      {
+        "found": true,
+        "mutation": "BRCA2 pathogenic variant",
+        "records": [
+          {
+            "gene": "BRCA2",
+            "mutation": "BRCA2 pathogenic variant",
+            "associated_cancer": "Breast/Ovarian"
+          }
+        ]
+      }
+    ],
+    "guideline_matches": [
+      {
+        "document_id": "G004",
+        "source": "Oncology-SOP",
+        "section": "Chemotherapy nausea",
+        "text": "Assess severity, hydration, oral intake and response to antiemetic therapy when nausea or vomiting is reported.",
+        "similarity_score": 0.5862
+      },
+      {
+        "document_id": "G008",
+        "source": "Oncology-SOP",
+        "section": "Diarrhea",
+        "text": "Assess severity of diarrhea, frequency of loose stools, hydration and electrolyte balance; administer loperamide as indicated.",
+        "similarity_score": 0.0587
+      },
+      {
+        "document_id": "G006",
+        "source": "Oncology-SOP",
+        "section": "Medication documentation",
+        "text": "Record drug name, dose, route, frequency and suspected adverse event in treatment documentation.",
+        "similarity_score": 0.0
+      }
+    ],
+    "negation_detected": false,
+    "warnings": []
+  },
+  {
+    "input_text": "Difficulty breathing and chest tightness. Widespread rash. Confusion. Pembrolizumab 200 mg was last administered 3 days ago.",
+    "resolved_text": "Difficulty breathing and chest tightness. Widespread rash. Confusion. Pembrolizumab 200 mg was last administered 3 days ago.",
+    "coreferences": [],
+    "cleaned_text": "difficulty breathing and chest tightness. widespread rash. confusion. pembrolizumab 200 mg was last administered 3 days ago.",
+    "urgency": {
+      "label": "CRITICAL",
+      "class_id": 3,
+      "confidence": 0.95,
+      "all_scores": {
+        "LOW": 0.021,
+        "MODERATE": 0.1056,
+        "HIGH": 0.015,
+        "CRITICAL": 0.8583
+      },
+      "model": "baseline_tfidf_lr",
+      "rule_applied": "Active life-threatening respiratory/allergic cue detected."
+    },
+    "entities": [
+      {
+        "text": "chest tightness",
+        "label": "ADVERSE_EVENT",
+        "start": 25,
+        "end": 40,
+        "confidence": 0.85,
+        "source": "rule_based"
+      },
+      {
+        "text": "rash",
+        "label": "ADVERSE_EVENT",
+        "start": 53,
+        "end": 57,
+        "confidence": 0.85,
+        "source": "rule_based"
+      },
+      {
+        "text": "Pembrolizumab",
+        "label": "DRUG_NAME",
+        "start": 70,
+        "end": 83,
+        "confidence": 0.85,
+        "source": "rule_based"
+      },
+      {
+        "text": "200 mg",
+        "label": "DOSAGE",
+        "start": 84,
+        "end": 90,
+        "confidence": 0.95,
+        "source": "rule_based"
+      }
+    ],
+    "drug_information": [
+      {
+        "found": true,
+        "drug": "pembrolizumab",
+        "matched_as": "pembrolizumab",
+        "match_type": "exact",
+        "records": [
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "fatigue",
+            "reaction": "fatigue",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "nausea",
+            "reaction": "nausea",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "diarrhea",
+            "reaction": "diarrhea",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "vomiting",
+            "reaction": "vomiting",
+            "severity": "high",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "rash",
+            "reaction": "rash",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "fever",
+            "reaction": "fever",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "neuropathy",
+            "reaction": "peripheral neuropathy",
+            "severity": "high",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "neutropenia",
+            "reaction": "neutropenia",
+            "severity": "high",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "anemia",
+            "reaction": "anemia",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "infusion reaction",
+            "reaction": "hypersensitivity",
+            "severity": "critical",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "chest tightness",
+            "reaction": "dyspnea",
+            "severity": "critical",
+            "route": "iv",
+            "dosage": "200 mg"
+          },
+          {
+            "drug_name": "pembrolizumab",
+            "adverse_event": "stomatitis",
+            "reaction": "oral mucositis",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "200 mg"
+          }
+        ]
+      }
+    ],
+    "mutation_information": [],
+    "guideline_matches": [
+      {
+        "document_id": "G008",
+        "source": "Oncology-SOP",
+        "section": "Diarrhea",
+        "text": "Assess severity of diarrhea, frequency of loose stools, hydration and electrolyte balance; administer loperamide as indicated.",
+        "similarity_score": 0.0
+      },
+      {
+        "document_id": "G007",
+        "source": "Oncology-SOP",
+        "section": "Neuropathy",
+        "text": "Assess peripheral neuropathy, numbness, tingling, and nerve impairment; evaluate dose modification for sensory neurotoxicity.",
+        "similarity_score": 0.0
+      },
+      {
+        "document_id": "G006",
+        "source": "Oncology-SOP",
+        "section": "Medication documentation",
+        "text": "Record drug name, dose, route, frequency and suspected adverse event in treatment documentation.",
+        "similarity_score": 0.0
+      }
+    ],
+    "negation_detected": false,
+    "warnings": []
+  },
+  {
+    "input_text": "Mild fatigue, slight nausea. Appetite slightly reduced. No other symptoms.",
+    "resolved_text": "Mild fatigue, slight nausea. Appetite slightly reduced. No other symptoms.",
+    "coreferences": [],
+    "cleaned_text": "mild fatigue slight nausea. appetite slightly reduced. no other symptoms.",
+    "urgency": {
+      "label": "LOW",
+      "class_id": 0,
+      "confidence": 0.9936,
+      "all_scores": {
+        "LOW": 0.9936,
+        "MODERATE": 0.0036,
+        "HIGH": 0.0014,
+        "CRITICAL": 0.0014
+      },
+      "model": "baseline_tfidf_lr",
+      "rule_applied": "Active mild baseline symptom profile without acute impairment."
+    },
+    "entities": [
+      {
+        "text": "Mild fatigue",
+        "label": "ADVERSE_EVENT",
+        "start": 0,
+        "end": 12,
+        "confidence": 0.85,
+        "source": "rule_based",
+        "context": "Mild fatigue, slight nausea. Appetite slightly reduced. No other symptoms.",
+        "negated": false
+      },
+      {
+        "text": "nausea",
+        "label": "ADVERSE_EVENT",
+        "start": 21,
+        "end": 27,
+        "confidence": 0.85,
+        "source": "rule_based",
+        "context": "Mild fatigue, slight nausea. Appetite slightly reduced. No other symptoms.",
+        "negated": false
+      }
+    ],
+    "drug_information": [],
+    "mutation_information": [],
+    "guideline_matches": [
+      {
+        "document_id": "G004",
+        "source": "Oncology-SOP",
+        "section": "Chemotherapy nausea",
+        "text": "Assess severity, hydration, oral intake and response to antiemetic therapy when nausea or vomiting is reported.",
+        "similarity_score": 0.4983
+      },
+      {
+        "document_id": "G005",
+        "source": "Oncology-SOP",
+        "section": "Respiratory symptoms",
+        "text": "New or worsening shortness of breath requires prompt clinical assessment.",
+        "similarity_score": 0.0648
+      },
+      {
+        "document_id": "G008",
+        "source": "Oncology-SOP",
+        "section": "Diarrhea",
+        "text": "Assess severity of diarrhea, frequency of loose stools, hydration and electrolyte balance; administer loperamide as indicated.",
+        "similarity_score": 0.0531
+      }
+    ],
+    "negation_detected": true,
+    "warnings": []
+  },
+  {
+    "input_text": "KRAS G12D and TP53 mutations found. Paclitaxel 175 mg/m2 and cisplatin 75 mg/m2 planned for colorectal cancer.",
+    "resolved_text": "KRAS G12D and TP53 mutations found. Paclitaxel 175 mg/m2 and cisplatin 75 mg/m2 planned for colorectal cancer.",
+    "coreferences": [],
+    "cleaned_text": "kras g12d and tp53 mutations found. paclitaxel 175 mg/m2 and cisplatin 75 mg/m2 planned for colorectal cancer.",
+    "urgency": {
+      "label": "MODERATE",
+      "class_id": 1,
+      "confidence": 0.5535,
+      "all_scores": {
+        "LOW": 0.2069,
+        "MODERATE": 0.5535,
+        "HIGH": 0.0848,
+        "CRITICAL": 0.1548
+      },
+      "model": "baseline_tfidf_lr"
+    },
+    "entities": [
+      {
+        "text": "KRAS G12D",
+        "label": "GENE_MUTATION",
+        "start": 0,
+        "end": 9,
+        "confidence": 0.8,
+        "source": "rule_based"
+      },
+      {
+        "text": "TP53",
+        "label": "GENE_MUTATION",
+        "start": 14,
+        "end": 18,
+        "confidence": 0.8,
+        "source": "rule_based"
+      },
+      {
+        "text": "Paclitaxel",
+        "label": "DRUG_NAME",
+        "start": 36,
+        "end": 46,
+        "confidence": 0.85,
+        "source": "rule_based"
+      },
+      {
+        "text": "175 mg/m2",
+        "label": "DOSAGE",
+        "start": 47,
+        "end": 56,
+        "confidence": 0.95,
+        "source": "rule_based"
+      },
+      {
+        "text": "cisplatin",
+        "label": "DRUG_NAME",
+        "start": 61,
+        "end": 70,
+        "confidence": 0.85,
+        "source": "rule_based"
+      },
+      {
+        "text": "75 mg/m2",
+        "label": "DOSAGE",
+        "start": 71,
+        "end": 79,
+        "confidence": 0.95,
+        "source": "rule_based"
+      },
+      {
+        "text": "colorectal cancer",
+        "label": "CANCER_TYPE",
+        "start": 92,
+        "end": 109,
+        "confidence": 0.85,
+        "source": "rule_based"
+      }
+    ],
+    "drug_information": [
+      {
+        "found": true,
+        "drug": "paclitaxel",
+        "matched_as": "paclitaxel",
+        "match_type": "exact",
+        "records": [
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "fatigue",
+            "reaction": "fatigue",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "nausea",
+            "reaction": "nausea",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "diarrhea",
+            "reaction": "diarrhea",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "vomiting",
+            "reaction": "vomiting",
+            "severity": "high",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "rash",
+            "reaction": "rash",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "fever",
+            "reaction": "fever",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "neuropathy",
+            "reaction": "peripheral neuropathy",
+            "severity": "high",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "neutropenia",
+            "reaction": "neutropenia",
+            "severity": "high",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "anemia",
+            "reaction": "anemia",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "infusion reaction",
+            "reaction": "hypersensitivity",
+            "severity": "critical",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "chest tightness",
+            "reaction": "dyspnea",
+            "severity": "critical",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          },
+          {
+            "drug_name": "paclitaxel",
+            "adverse_event": "stomatitis",
+            "reaction": "oral mucositis",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "175 mg/m2"
+          }
+        ]
+      },
+      {
+        "found": true,
+        "drug": "cisplatin",
+        "matched_as": "cisplatin",
+        "match_type": "exact",
+        "records": [
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "fatigue",
+            "reaction": "fatigue",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "nausea",
+            "reaction": "nausea",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "diarrhea",
+            "reaction": "diarrhea",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "vomiting",
+            "reaction": "vomiting",
+            "severity": "high",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "rash",
+            "reaction": "rash",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "fever",
+            "reaction": "fever",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "neuropathy",
+            "reaction": "peripheral neuropathy",
+            "severity": "high",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "neutropenia",
+            "reaction": "neutropenia",
+            "severity": "high",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "anemia",
+            "reaction": "anemia",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "infusion reaction",
+            "reaction": "hypersensitivity",
+            "severity": "critical",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "chest tightness",
+            "reaction": "dyspnea",
+            "severity": "critical",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          },
+          {
+            "drug_name": "cisplatin",
+            "adverse_event": "stomatitis",
+            "reaction": "oral mucositis",
+            "severity": "moderate",
+            "route": "iv",
+            "dosage": "75 mg/m2"
+          }
+        ]
+      }
+    ],
+    "mutation_information": [
+      {
+        "found": true,
+        "mutation": "KRAS G12D",
+        "records": [
+          {
+            "gene": "KRAS",
+            "mutation": "KRAS G12D",
+            "associated_cancer": "Colorectal/Pancreatic"
+          }
+        ]
+      },
+      {
+        "found": true,
+        "mutation": "TP53",
+        "records": [
+          {
+            "gene": "TP53",
+            "mutation": "TP53 missense variant",
+            "associated_cancer": "Multiple cancers"
+          }
+        ]
+      },
+      {
+        "found": true,
+        "gene": "kras",
+        "records": [
+          {
+            "gene": "KRAS",
+            "mutation": "KRAS G12D",
+            "associated_cancer": "Colorectal/Pancreatic"
+          },
+          {
+            "gene": "KRAS",
+            "mutation": "KRAS G12C",
+            "associated_cancer": "Lung/Colorectal"
+          }
+        ]
+      }
+    ],
+    "guideline_matches": [
+      {
+        "document_id": "G008",
+        "source": "Oncology-SOP",
+        "section": "Diarrhea",
+        "text": "Assess severity of diarrhea, frequency of loose stools, hydration and electrolyte balance; administer loperamide as indicated.",
+        "similarity_score": 0.0
+      },
+      {
+        "document_id": "G007",
+        "source": "Oncology-SOP",
+        "section": "Neuropathy",
+        "text": "Assess peripheral neuropathy, numbness, tingling, and nerve impairment; evaluate dose modification for sensory neurotoxicity.",
+        "similarity_score": 0.0
+      },
+      {
+        "document_id": "G006",
+        "source": "Oncology-SOP",
+        "section": "Medication documentation",
+        "text": "Record drug name, dose, route, frequency and suspected adverse event in treatment documentation.",
+        "similarity_score": 0.0
+      }
+    ],
+    "negation_detected": false,
+    "warnings": []
+  }
+]

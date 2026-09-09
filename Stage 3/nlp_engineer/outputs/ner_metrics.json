@@ -1,0 +1,202 @@
+{
+  "rule_based": {
+    "model": "Rule-Based (Dictionary + Regex)",
+    "overall": {
+      "precision": 0.9892,
+      "recall": 0.9787,
+      "f1": 0.984,
+      "tp": 92,
+      "fp": 1,
+      "fn": 2
+    },
+    "per_entity": {
+      "GENE_MUTATION": {
+        "precision": 0.9424,
+        "recall": 0.9424,
+        "f1": 0.9424,
+        "tp": 4712,
+        "fp": 288,
+        "fn": 288
+      },
+      "DRUG_NAME": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 10000,
+        "fp": 0,
+        "fn": 0
+      },
+      "DOSAGE": {
+        "precision": 1.0,
+        "recall": 0.9562,
+        "f1": 0.9776,
+        "tp": 9562,
+        "fp": 0,
+        "fn": 438
+      },
+      "ADVERSE_EVENT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 7500,
+        "fp": 0,
+        "fn": 0
+      },
+      "CANCER_TYPE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 7500,
+        "fp": 0,
+        "fn": 0
+      }
+    }
+  },
+  "ml_token": {
+    "model": "ML Token Classifier (TF-IDF + LogReg on BIO tags)",
+    "overall": {
+      "precision": 0.5227,
+      "recall": 0.9787,
+      "f1": 0.6815,
+      "tp": 92,
+      "fp": 84,
+      "fn": 2
+    },
+    "per_entity": {
+      "GENE_MUTATION": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 5000,
+        "fp": 0,
+        "fn": 0
+      },
+      "DRUG_NAME": {
+        "precision": 0.9775,
+        "recall": 1.0,
+        "f1": 0.9886,
+        "tp": 10000,
+        "fp": 230,
+        "fn": 0
+      },
+      "DOSAGE": {
+        "precision": 0.9499,
+        "recall": 0.9499,
+        "f1": 0.9499,
+        "tp": 9499,
+        "fp": 501,
+        "fn": 501
+      },
+      "ADVERSE_EVENT": {
+        "precision": 0.5878,
+        "recall": 0.8552,
+        "f1": 0.6968,
+        "tp": 6414,
+        "fp": 4497,
+        "fn": 1086
+      },
+      "CANCER_TYPE": {
+        "precision": 0.4123,
+        "recall": 0.504,
+        "f1": 0.4535,
+        "tp": 3780,
+        "fp": 5389,
+        "fn": 3720
+      }
+    },
+    "token_report": {
+      "token_classification_report": {
+        "B-ADVERSE_EVENT": {
+          "precision": 0.6337899543378995,
+          "recall": 0.9253333333333333,
+          "f1-score": 0.7523035230352304,
+          "support": 1500.0
+        },
+        "B-CANCER_TYPE": {
+          "precision": 0.8200442967884828,
+          "recall": 0.9873333333333333,
+          "f1-score": 0.895946763460375,
+          "support": 1500.0
+        },
+        "B-DOSAGE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 2000.0
+        },
+        "B-DRUG_NAME": {
+          "precision": 0.9775171065493646,
+          "recall": 1.0,
+          "f1-score": 0.9886307464162135,
+          "support": 2000.0
+        },
+        "B-GENE_MUTATION": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1000.0
+        },
+        "I-ADVERSE_EVENT": {
+          "precision": 0.39526411657559196,
+          "recall": 1.0,
+          "f1-score": 0.566579634464752,
+          "support": 217.0
+        },
+        "I-CANCER_TYPE": {
+          "precision": 0.8632321373811714,
+          "recall": 1.0,
+          "f1-score": 0.9265964450296248,
+          "support": 2815.0
+        },
+        "I-DOSAGE": {
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1-score": 0.975609756097561,
+          "support": 2000.0
+        },
+        "I-GENE_MUTATION": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1439.0
+        },
+        "O": {
+          "precision": 1.0,
+          "recall": 0.872,
+          "f1-score": 0.9316239316239316,
+          "support": 15000.0
+        },
+        "accuracy": 0.9304061619897527,
+        "macro avg": {
+          "precision": 0.8642228564013463,
+          "recall": 0.9784666666666666,
+          "f1-score": 0.9037290800127689,
+          "support": 29471.0
+        },
+        "weighted avg": {
+          "precision": 0.9499276670141871,
+          "recall": 0.9304061619897527,
+          "f1-score": 0.9346656775327331,
+          "support": 29471.0
+        }
+      },
+      "labels": [
+        "B-ADVERSE_EVENT",
+        "B-CANCER_TYPE",
+        "B-DOSAGE",
+        "B-DRUG_NAME",
+        "B-GENE_MUTATION",
+        "I-ADVERSE_EVENT",
+        "I-CANCER_TYPE",
+        "I-DOSAGE",
+        "I-GENE_MUTATION",
+        "O"
+      ]
+    }
+  },
+  "transformer": {
+    "success": false,
+    "reason": "torch/transformers not available",
+    "note": "Transformer NER results NOT fabricated."
+  }
+}

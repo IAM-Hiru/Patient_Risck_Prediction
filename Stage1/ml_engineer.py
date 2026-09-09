@@ -1,5 +1,6 @@
 # ============================================================
 # ML ENGINEER - ONCOLOGY TOXICITY & RISK PREDICTION PIPELINE
+# (WITH CLINICAL EXPLAINABLE AI - XAI MODULE)
 # ============================================================
 
 import os
@@ -18,6 +19,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder
 from sklearn.impute import SimpleImputer
+from sklearn.inspection import permutation_importance
 
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import (
@@ -92,6 +94,9 @@ if "toxicity_risk" in df_processed.columns:
     TARGET = "toxicity_risk"
     IS_MULTICLASS = True
     print("\nDataset Type: Oncology Clinical Risk & Toxicity (Multiclass Target)")
+
+    # Clean target strings if whitespace exists
+    df_processed[TARGET] = df_processed[TARGET].astype(str).str.strip()
 
     label_encoder = LabelEncoder()
     df_processed[TARGET] = label_encoder.fit_transform(df_processed[TARGET])
@@ -300,7 +305,70 @@ print(f"\nFinal selected top model: {best_model_name} (Accuracy: {best_accuracy 
 
 
 # ============================================================
-# 8. SAVE MODEL ARTIFACTS & REPORTS
+# 8. CLINICAL EXPLAINABLE AI (XAI) MODULE
+# ============================================================
+
+print("\n\n==============================================")
+print("CLINICAL EXPLAINABLE AI (XAI) ANALYSIS")
+print("==============================================")
+
+# 8.1 Permutation Feature Importance
+perm_importance = permutation_importance(
+    final_model,
+    X_test,
+    y_test,
+    n_repeats=5,
+    random_state=42,
+    n_jobs=1
+)
+
+importance_df = pd.DataFrame({
+    "Feature": X_test.columns,
+    "Importance_Mean": perm_importance.importances_mean,
+    "Importance_Std": perm_importance.importances_std
+}).sort_values(by="Importance_Mean", ascending=False)
+
+print("\nTop 15 Most Important Clinical Features (Permutation Importance):")
+print(importance_df.head(15).to_string(index=False))
+
+# 8.2 Patient-Level Clinical Risk Explainer
+def explain_patient_prediction(patient_idx=0):
+    patient_row = X_test.iloc[[patient_idx]]
+    actual_label_idx = y_test.iloc[patient_idx]
+    actual_label = target_classes[actual_label_idx] if IS_MULTICLASS else actual_label_idx
+
+    probabilities = final_model.predict_proba(patient_row)[0]
+    predicted_idx = np.argmax(probabilities)
+    predicted_label = target_classes[predicted_idx] if IS_MULTICLASS else predicted_idx
+    confidence = probabilities[predicted_idx] * 100
+
+    explanation = []
+    explanation.append("==============================================")
+    explanation.append("PATIENT-LEVEL CLINICAL RISK EXPLANATION REPORT")
+    explanation.append("==============================================")
+    explanation.append(f"Predicted Toxicity Risk : {predicted_label} (Confidence: {confidence:.1f}%)")
+    explanation.append(f"Actual Clinical Status  : {actual_label}")
+    
+    if IS_MULTICLASS:
+        prob_str = ", ".join([f"{cls}: {prob*100:.1f}%" for cls, prob in zip(target_classes, probabilities)])
+        explanation.append(f"Full Probabilities      : [{prob_str}]")
+
+    explanation.append("\nKey Patient Clinical Indicators:")
+    key_features = ['dosage_mg', 'mutation_count', 'ctDNA_level', 'WBC', 'ALT', 'AST', 'liver_enzyme_sum', 'pulse_pressure']
+    for kf in key_features:
+        if kf in patient_row.columns:
+            explanation.append(f"  • {kf}: {patient_row[kf].values[0]}")
+
+    report_text = "\n".join(explanation)
+    print("\n" + report_text)
+    return report_text
+
+# Run sample explanation for patient 0
+sample_explanation = explain_patient_prediction(0)
+
+
+# ============================================================
+# 9. SAVE MODEL ARTIFACTS & XAI REPORTS
 # ============================================================
 
 output_dir = os.path.dirname(os.path.abspath(__file__))
@@ -318,6 +386,14 @@ results_path = os.path.join(output_dir, "model_comparison_tuned.csv")
 results.to_csv(results_path, index=False)
 results.to_csv(os.path.join(output_dir, "model_comparison.csv"), index=False)
 
+# Save XAI Reports
+feature_imp_path = os.path.join(output_dir, "feature_importances.csv")
+importance_df.to_csv(feature_imp_path, index=False)
+
+sample_exp_path = os.path.join(output_dir, "patient_explainability_sample.txt")
+with open(sample_exp_path, "w") as f:
+    f.write(sample_explanation)
+
 print("\nFiles saved successfully:")
 print(f"1. {best_model_path}")
 print("2. tuned_decision_tree.pkl")
@@ -326,8 +402,9 @@ print("4. tuned_extra_trees.pkl")
 print("5. tuned_xgboost.pkl")
 print("6. tuned_stacking_model.pkl")
 print(f"7. {results_path}")
-print("8. model_comparison.csv")
+print(f"8. {feature_imp_path}")
+print(f"9. {sample_exp_path}")
 
 print("\n" + "=" * 70)
-print("ML ENGINEER PIPELINE COMPLETED SUCCESSFULLY")
+print("ML ENGINEER PIPELINE WITH XAI COMPLETED SUCCESSFULLY")
 print("=" * 70)

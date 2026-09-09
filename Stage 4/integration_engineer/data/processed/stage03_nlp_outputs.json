@@ -1,0 +1,455 @@
+[
+  {
+    "patient_id": "P00001",
+    "diagnosis": "Non-Small Cell Lung Cancer",
+    "biomarker": "EGFR L858R",
+    "regimen": "Osimertinib 80mg oral daily",
+    "clinical_note": "Mild tiredness and localized dry skin on forearms, vitals stable, appetite normal.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00002",
+    "diagnosis": "HER2-Positive Breast Cancer",
+    "biomarker": "HER2 amplification",
+    "regimen": "Trastuzumab intravenous infusion",
+    "clinical_note": "Slight evening fatigue after daily walk, afebrile, tolerating oral regimen without nausea.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00003",
+    "diagnosis": "Colorectal Adenocarcinoma",
+    "biomarker": "KRAS G12D",
+    "regimen": "Oxaliplatin with Capecitabine",
+    "clinical_note": "Minor dry cough, room air SpO2 98%, normal oral intake, no dizziness.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00004",
+    "diagnosis": "Metastatic Melanoma",
+    "biomarker": "BRAF V600E",
+    "regimen": "Pembrolizumab with Ipilimumab",
+    "clinical_note": "Grade 1 mild skin xerosis around elbows, denying nausea, vomiting or diarrhea.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00005",
+    "diagnosis": "Ovarian High-Grade Serous Carcinoma",
+    "biomarker": "BRCA2 pathogenic variant",
+    "regimen": "Olaparib maintenance tablets",
+    "clinical_note": "Mild generalized lethargy on day 5 post-cycle, blood pressure 122/78 mmHg, normal vitals.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00006",
+    "diagnosis": "Renal Cell Carcinoma",
+    "biomarker": "VHL alteration",
+    "regimen": "Nivolumab 240mg IV biweekly",
+    "clinical_note": "Slight intermittent anorexia, patient is active and maintaining daily physical routine.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00007",
+    "diagnosis": "Small Cell Lung Cancer",
+    "biomarker": "TP53 missense variant",
+    "regimen": "Atezolizumab with Carboplatin",
+    "clinical_note": "Mild fatigue 4 days post-infusion, vitals stable, appetite intact.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00008",
+    "diagnosis": "Prostate Adenocarcinoma",
+    "biomarker": "BRCA1 pathogenic variant",
+    "regimen": "Docetaxel 75mg/m2 IV",
+    "clinical_note": "Slight dry mouth and mild evening fatigue, patient maintaining weight and hydration.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00009",
+    "diagnosis": "Triple-Negative Breast Cancer",
+    "biomarker": "ALK fusion",
+    "regimen": "Doxorubicin with Cyclophosphamide",
+    "clinical_note": "Mild localized skin dryness, bowel movements normal, tolerating oral therapy well.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00010",
+    "diagnosis": "Pancreatic Ductal Adenocarcinoma",
+    "biomarker": "PIK3CA H1047R",
+    "regimen": "Gemcitabine with Nab-Paclitaxel",
+    "clinical_note": "Minimal transient nausea after infusion, fully resolved within two hours without antiemetics.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00011",
+    "diagnosis": "Non-Small Cell Lung Cancer",
+    "biomarker": "EGFR L858R",
+    "regimen": "Osimertinib 80mg oral daily",
+    "clinical_note": "Mild tiredness noted, vital signs completely stable, afebrile.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00012",
+    "diagnosis": "HER2-Positive Breast Cancer",
+    "biomarker": "HER2 amplification",
+    "regimen": "Trastuzumab intravenous infusion",
+    "clinical_note": "Routine oncology follow-up: mild localized fatigue, no focal complaints, ambulatory.",
+    "true_tier": "LOW",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00013",
+    "diagnosis": "Colorectal Adenocarcinoma",
+    "biomarker": "KRAS G12D",
+    "regimen": "Oxaliplatin with Capecitabine",
+    "clinical_note": "Persistent moderate nausea and 3 loose stools per day, mild grade 1 peripheral tingling.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00014",
+    "diagnosis": "Metastatic Melanoma",
+    "biomarker": "BRAF V600E",
+    "regimen": "Pembrolizumab with Ipilimumab",
+    "clinical_note": "Grade 2 erythematous maculopapular rash covering 15% body surface area, mild pruritus.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00015",
+    "diagnosis": "Ovarian High-Grade Serous Carcinoma",
+    "biomarker": "BRCA2 pathogenic variant",
+    "regimen": "Olaparib maintenance tablets",
+    "clinical_note": "Moderate persistent fatigue and 3 watery diarrhea episodes in past 24 hours, afebrile.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00016",
+    "diagnosis": "Renal Cell Carcinoma",
+    "biomarker": "VHL alteration",
+    "regimen": "Nivolumab 240mg IV biweekly",
+    "clinical_note": "Persistent grade 2 peripheral sensory neuropathy in bilateral fingertips, mild gait slowing.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00017",
+    "diagnosis": "Small Cell Lung Cancer",
+    "biomarker": "TP53 missense variant",
+    "regimen": "Atezolizumab with Carboplatin",
+    "clinical_note": "Moderate nausea requiring scheduled ondansetron, 4 loose bowel movements daily.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00018",
+    "diagnosis": "Prostate Adenocarcinoma",
+    "biomarker": "BRCA1 pathogenic variant",
+    "regimen": "Docetaxel 75mg/m2 IV",
+    "clinical_note": "Moderate mucositis grade 2 with localized oral ulcers, able to swallow liquids.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00019",
+    "diagnosis": "Triple-Negative Breast Cancer",
+    "biomarker": "ALK fusion",
+    "regimen": "Doxorubicin with Cyclophosphamide",
+    "clinical_note": "Persistent dizziness upon standing, BP 105/68 mmHg, mild generalized muscular weakness.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00020",
+    "diagnosis": "Pancreatic Ductal Adenocarcinoma",
+    "biomarker": "PIK3CA H1047R",
+    "regimen": "Gemcitabine with Nab-Paclitaxel",
+    "clinical_note": "Grade 2 fatigue interfering with work, mild peripheral edema in lower extremities.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00021",
+    "diagnosis": "Non-Small Cell Lung Cancer",
+    "biomarker": "EGFR L858R",
+    "regimen": "Osimertinib 80mg oral daily",
+    "clinical_note": "Moderate anorexia with 3 kg weight loss over 3 weeks, mild postprandial cramping.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00022",
+    "diagnosis": "HER2-Positive Breast Cancer",
+    "biomarker": "HER2 amplification",
+    "regimen": "Trastuzumab intravenous infusion",
+    "clinical_note": "Bilateral hand-foot syndrome grade 2 with erythema and mild swelling, able to perform self-care.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00023",
+    "diagnosis": "Colorectal Adenocarcinoma",
+    "biomarker": "KRAS G12D",
+    "regimen": "Oxaliplatin with Capecitabine",
+    "clinical_note": "Moderate nausea and 3 episodes of loose watery stools daily, vitals stable, afebrile.",
+    "true_tier": "MODERATE",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00024",
+    "diagnosis": "Metastatic Melanoma",
+    "biomarker": "BRAF V600E",
+    "regimen": "Pembrolizumab with Ipilimumab",
+    "clinical_note": "Severe intractable vomiting (>5 episodes/day) with severe dehydration, unable to tolerate oral intake.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00025",
+    "diagnosis": "Ovarian High-Grade Serous Carcinoma",
+    "biomarker": "BRCA2 pathogenic variant",
+    "regimen": "Olaparib maintenance tablets",
+    "clinical_note": "Spiking fever of 38.6C with rigors during neutropenic nadir day 12 post-chemotherapy.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00026",
+    "diagnosis": "Renal Cell Carcinoma",
+    "biomarker": "VHL alteration",
+    "regimen": "Nivolumab 240mg IV biweekly",
+    "clinical_note": "Grade 3 diarrhea (>7 watery stools/day) with dizziness, orthostatic hypotension, and severe dry mouth.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00027",
+    "diagnosis": "Small Cell Lung Cancer",
+    "biomarker": "TP53 missense variant",
+    "regimen": "Atezolizumab with Carboplatin",
+    "clinical_note": "Severe oral mucositis grade 3, unable to swallow solid food or liquids, severe mucosal sloughing.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00028",
+    "diagnosis": "Prostate Adenocarcinoma",
+    "biomarker": "BRCA1 pathogenic variant",
+    "regimen": "Docetaxel 75mg/m2 IV",
+    "clinical_note": "Persistent temperature of 38.7C with shaking chills, absolute neutrophil count 450/uL.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00029",
+    "diagnosis": "Triple-Negative Breast Cancer",
+    "biomarker": "ALK fusion",
+    "regimen": "Doxorubicin with Cyclophosphamide",
+    "clinical_note": "Intractable nausea and persistent vomiting 6 times in 12 hours, clinically dehydrated.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00030",
+    "diagnosis": "Pancreatic Ductal Adenocarcinoma",
+    "biomarker": "PIK3CA H1047R",
+    "regimen": "Gemcitabine with Nab-Paclitaxel",
+    "clinical_note": "Severe dehydration secondary to intractable grade 3 diarrhea, BP 92/58 mmHg, tachycardia 118 bpm.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00031",
+    "diagnosis": "Non-Small Cell Lung Cancer",
+    "biomarker": "EGFR L858R",
+    "regimen": "Osimertinib 80mg oral daily",
+    "clinical_note": "Spiking fever of 38.9C with rigors on day 10 of chemotherapy, neutropenic nadir confirmed.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00032",
+    "diagnosis": "HER2-Positive Breast Cancer",
+    "biomarker": "HER2 amplification",
+    "regimen": "Trastuzumab intravenous infusion",
+    "clinical_note": "Severe persistent vomiting (>6 episodes) with ketonuria and inability to keep fluids down.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00033",
+    "diagnosis": "Colorectal Adenocarcinoma",
+    "biomarker": "KRAS G12D",
+    "regimen": "Oxaliplatin with Capecitabine",
+    "clinical_note": "High fever of 38.8C with shaking rigors, severe lethargy, and localized central line erythema.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00034",
+    "diagnosis": "Metastatic Melanoma",
+    "biomarker": "BRAF V600E",
+    "regimen": "Pembrolizumab with Ipilimumab",
+    "clinical_note": "Grade 3 diarrhea with 8 watery stools today, severe cramping, dry mucous membranes.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00035",
+    "diagnosis": "Ovarian High-Grade Serous Carcinoma",
+    "biomarker": "BRCA2 pathogenic variant",
+    "regimen": "Olaparib maintenance tablets",
+    "clinical_note": "Severe intractable nausea with recurrent emesis 5 times daily, orthostasis and dry tongue.",
+    "true_tier": "HIGH",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00036",
+    "diagnosis": "Renal Cell Carcinoma",
+    "biomarker": "VHL alteration",
+    "regimen": "Nivolumab 240mg IV biweekly",
+    "clinical_note": "Acute severe dyspnea, SpO2 < 88% on room air with stridor and marked hypotension.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00037",
+    "diagnosis": "Small Cell Lung Cancer",
+    "biomarker": "TP53 missense variant",
+    "regimen": "Atezolizumab with Carboplatin",
+    "clinical_note": "Acute respiratory distress, SpO2 84%, bilateral wheezing, severe accessory muscle use.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00038",
+    "diagnosis": "Prostate Adenocarcinoma",
+    "biomarker": "BRCA1 pathogenic variant",
+    "regimen": "Docetaxel 75mg/m2 IV",
+    "clinical_note": "Immediate hypersensitivity reaction: severe angioedema, facial swelling, stridor, BP 76/44 mmHg.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00039",
+    "diagnosis": "Triple-Negative Breast Cancer",
+    "biomarker": "ALK fusion",
+    "regimen": "Doxorubicin with Cyclophosphamide",
+    "clinical_note": "Altered mental status with severe hypotension BP 72/40 mmHg and rapid respiratory rate 36/min.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00040",
+    "diagnosis": "Pancreatic Ductal Adenocarcinoma",
+    "biomarker": "PIK3CA H1047R",
+    "regimen": "Gemcitabine with Nab-Paclitaxel",
+    "clinical_note": "Severe anaphylactic shock within 10 minutes of infusion, diffuse urticaria, stridor, collapse.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00041",
+    "diagnosis": "Non-Small Cell Lung Cancer",
+    "biomarker": "EGFR L858R",
+    "regimen": "Osimertinib 80mg oral daily",
+    "clinical_note": "Acute dyspnea, SpO2 86% on 4L nasal cannula, marked tachypnea 34/min, and diaphoresis.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00042",
+    "diagnosis": "HER2-Positive Breast Cancer",
+    "biomarker": "HER2 amplification",
+    "regimen": "Trastuzumab intravenous infusion",
+    "clinical_note": "Stridor, severe laryngeal edema, acute dyspnea, SpO2 < 88%, emergent airway compromise.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00043",
+    "diagnosis": "Colorectal Adenocarcinoma",
+    "biomarker": "KRAS G12D",
+    "regimen": "Oxaliplatin with Capecitabine",
+    "clinical_note": "Altered mental status, severe cyanosis, SpO2 82% room air, unresponsive to verbal commands.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00044",
+    "diagnosis": "Metastatic Melanoma",
+    "biomarker": "BRAF V600E",
+    "regimen": "Pembrolizumab with Ipilimumab",
+    "clinical_note": "Acute respiratory failure with profound dyspnea, SpO2 85%, marked intercostal retractions.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00045",
+    "diagnosis": "Ovarian High-Grade Serous Carcinoma",
+    "biomarker": "BRCA2 pathogenic variant",
+    "regimen": "Olaparib maintenance tablets",
+    "clinical_note": "Severe anaphylactoid reaction with bronchospasm, stridor, profound hypotension BP 70/40 mmHg.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00046",
+    "diagnosis": "Renal Cell Carcinoma",
+    "biomarker": "VHL alteration",
+    "regimen": "Nivolumab 240mg IV biweekly",
+    "clinical_note": "Acute severe dyspnea, SpO2 < 88% with marked central cyanosis and impending respiratory collapse.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00047",
+    "diagnosis": "Small Cell Lung Cancer",
+    "biomarker": "TP53 missense variant",
+    "regimen": "Atezolizumab with Carboplatin",
+    "clinical_note": "Sudden acute dyspnea with audible stridor, room air SpO2 83%, systolic BP 74 mmHg.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": false
+  },
+  {
+    "patient_id": "P00048",
+    "diagnosis": "Metastatic Colorectal Cancer",
+    "biomarker": "KRAS G12C",
+    "regimen": "Irinotecan with Capecitabine",
+    "clinical_note": "Mild nausea accompanied by spiking fever of 38.8C during neutropenic nadir with dehydration.",
+    "true_tier": "HIGH",
+    "is_boundary_case": true,
+    "escalation_type": "MODERATE_TO_HIGH"
+  },
+  {
+    "patient_id": "P00049",
+    "diagnosis": "Non-Small Cell Lung Cancer",
+    "biomarker": "EGFR exon 19 deletion",
+    "regimen": "Osimertinib 80mg oral daily",
+    "clinical_note": "Mild skin rash but with intractable vomiting (>5 episodes/day) and severe clinical dehydration.",
+    "true_tier": "HIGH",
+    "is_boundary_case": true,
+    "escalation_type": "MODERATE_TO_HIGH"
+  },
+  {
+    "patient_id": "P00050",
+    "diagnosis": "ALK-Positive Lung Adenocarcinoma",
+    "biomarker": "ALK fusion",
+    "regimen": "Alectinib 600mg twice daily",
+    "clinical_note": "Dry cough accompanied by acute dyspnea and documented SpO2 < 88% with audible stridor.",
+    "true_tier": "CRITICAL",
+    "is_boundary_case": true,
+    "escalation_type": "LOW_TO_CRITICAL"
+  }
+]

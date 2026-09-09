@@ -1,0 +1,59 @@
+{
+    "datasets": {
+        "urgency_symptom_logs": {
+            "original_record_count": 10250,
+            "final_record_count": 10000,
+            "duplicates_removed": 100,
+            "missing_values": 50,
+            "invalid_records": 150,
+            "invalid_labels": 50,
+            "empty_texts": 100,
+            "entity_annotation_errors": 0,
+            "leakage_findings": "No leakage detected."
+        },
+        "ner_training_data": {
+            "original_record_count": 10250,
+            "final_record_count": 10000,
+            "duplicates_removed": 100,
+            "missing_values": 0,
+            "invalid_records": 150,
+            "invalid_labels": 0,
+            "empty_texts": 150,
+            "entity_annotation_errors": 0,
+            "leakage_findings": "None"
+        },
+        "drug_adverse_events": {
+            "original_record_count": 1000,
+            "final_record_count": 1000,
+            "duplicates_removed": 0,
+            "missing_values": 0,
+            "invalid_records": 0,
+            "invalid_labels": 0,
+            "empty_texts": 0,
+            "entity_annotation_errors": 0,
+            "leakage_findings": "None"
+        },
+        "gene_mutation_dictionary": {
+            "original_record_count": 16,
+            "final_record_count": 16,
+            "duplicates_removed": 0,
+            "missing_values": 0,
+            "invalid_records": 0,
+            "invalid_labels": 0,
+            "empty_texts": 0,
+            "entity_annotation_errors": 0,
+            "leakage_findings": "None"
+        },
+        "oncology_guideline_chunks": {
+            "original_record_count": 8,
+            "final_record_count": 8,
+            "duplicates_removed": 0,
+            "missing_values": 0,
+            "invalid_records": 0,
+            "invalid_labels": 0,
+            "empty_texts": 0,
+            "entity_annotation_errors": 0,
+            "leakage_findings": "None"
+        }
+    }
+}

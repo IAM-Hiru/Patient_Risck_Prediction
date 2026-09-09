@@ -1,0 +1,11 @@
+model,entity,precision,recall,f1
+rule_based,GENE_MUTATION,0.9424,0.9424,0.9424
+rule_based,DRUG_NAME,1.0,1.0,1.0
+rule_based,DOSAGE,1.0,0.9562,0.9776
+rule_based,ADVERSE_EVENT,1.0,1.0,1.0
+rule_based,CANCER_TYPE,1.0,1.0,1.0
+ml_token,GENE_MUTATION,1.0,1.0,1.0
+ml_token,DRUG_NAME,0.9775,1.0,0.9886
+ml_token,DOSAGE,0.9499,0.9499,0.9499
+ml_token,ADVERSE_EVENT,0.5878,0.8552,0.6968
+ml_token,CANCER_TYPE,0.4123,0.504,0.4535

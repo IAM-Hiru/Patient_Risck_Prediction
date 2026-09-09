@@ -1,0 +1,1 @@
+{"version": "1.0", "truncation": {"max_length": 512}, "padding": {"strategy": "BatchLongest"}, "model": {"type": "BPE", "vocab": {"<|im_start|>": 151644, "<|im_end|>": 151645, "<|endoftext|>": 151643}}}

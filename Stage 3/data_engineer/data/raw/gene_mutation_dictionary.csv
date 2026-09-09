@@ -1,0 +1,17 @@
+gene,mutation,associated_cancer
+EGFR,EGFR L858R,Lung
+EGFR,EGFR T790M,Lung
+EGFR,EGFR exon 19 deletion,Lung
+KRAS,KRAS G12D,Colorectal/Pancreatic
+KRAS,KRAS G12C,Lung/Colorectal
+BRAF,BRAF V600E,Melanoma/Colorectal
+BRCA1,BRCA1 pathogenic variant,Breast/Ovarian
+BRCA2,BRCA2 pathogenic variant,Breast/Ovarian
+ALK,ALK fusion,Lung
+ROS1,ROS1 rearrangement,Lung
+HER2,HER2 amplification,Breast/Gastric
+TP53,TP53 missense variant,Multiple cancers
+PIK3CA,PIK3CA H1047R,Breast
+RET,RET fusion,Lung/Thyroid
+MET,MET exon 14 skipping,Lung
+IDH1,IDH1 R132H,Glioma/AML

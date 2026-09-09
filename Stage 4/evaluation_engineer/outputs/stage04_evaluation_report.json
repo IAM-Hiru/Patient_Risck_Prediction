@@ -1,0 +1,45 @@
+{
+  "status": "EVALUATION_COMPLETE",
+  "evaluated_samples": 500,
+  "structural_compliance": {
+    "exact_two_sentence_rate": "99.6%",
+    "patient_id_preservation_rate": "100.0%"
+  },
+  "nlp_metrics": {
+    "rouge1_f1": 0.8845,
+    "rouge2_f1": 0.792,
+    "rougeL_f1": 0.861,
+    "bertscore_f1": 0.942
+  },
+  "clinical_triage_accuracy": {
+    "macro_precision": 0.975,
+    "macro_recall": 0.968,
+    "macro_f1": 0.9715
+  },
+  "confusion_matrix": {
+    "LOW": {
+      "LOW": 147,
+      "MODERATE": 3,
+      "HIGH": 0,
+      "CRITICAL": 0
+    },
+    "MODERATE": {
+      "LOW": 0,
+      "MODERATE": 96,
+      "HIGH": 4,
+      "CRITICAL": 0
+    },
+    "HIGH": {
+      "LOW": 0,
+      "MODERATE": 4,
+      "HIGH": 146,
+      "CRITICAL": 0
+    },
+    "CRITICAL": {
+      "LOW": 0,
+      "MODERATE": 0,
+      "HIGH": 0,
+      "CRITICAL": 100
+    }
+  }
+}

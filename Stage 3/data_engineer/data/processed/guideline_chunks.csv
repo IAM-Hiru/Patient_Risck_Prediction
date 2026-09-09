@@ -1,0 +1,9 @@
+document_id,source,section,text
+G001,FDA-inspired,Immune-related adverse events,Monitor for new or worsening symptoms during immune therapy and assess suspected immune-mediated reactions.
+G002,FDA-inspired,Severe infusion reaction,A severe infusion reaction requires immediate clinical assessment and management according to applicable product labeling.
+G003,Oncology-SOP,Fever during systemic therapy,Fever after systemic anticancer treatment should prompt assessment for infection and treatment-related complications.
+G004,Oncology-SOP,Chemotherapy nausea,"Assess severity, hydration, oral intake and response to antiemetic therapy when nausea or vomiting is reported."
+G005,Oncology-SOP,Respiratory symptoms,New or worsening shortness of breath requires prompt clinical assessment.
+G006,Oncology-SOP,Medication documentation,"Record drug name, dose, route, frequency and suspected adverse event in treatment documentation."
+G007,Oncology-SOP,Neuropathy,"Assess peripheral neuropathy, numbness, tingling, and nerve impairment; evaluate dose modification for sensory neurotoxicity."
+G008,Oncology-SOP,Diarrhea,"Assess severity of diarrhea, frequency of loose stools, hydration and electrolyte balance; administer loperamide as indicated."

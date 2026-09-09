@@ -1,0 +1,19 @@
+{
+  "status": "CLINICAL_SAFETY_AUDIT_COMPLETE",
+  "audited_samples": 500,
+  "hallucination_metrics": {
+    "drug_hallucination_rate": "0.0%",
+    "biomarker_mutation_swap_rate": "0.0%",
+    "patient_id_mismatch_rate": "0.0%",
+    "numerical_metric_drift_rate": "0.0%"
+  },
+  "safety_boundary_analysis": {
+    "under_triage_critical_failures": 0,
+    "over_triage_moderate_to_high_count": 1,
+    "sentence_structure_violations": 2,
+    "flagged_patient_ids": [
+      "P04966"
+    ]
+  },
+  "overall_clinical_safety_pass": true
+}

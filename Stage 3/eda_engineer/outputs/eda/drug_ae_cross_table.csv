@@ -1,0 +1,9 @@
+drug_name,anemia,diarrhea,fatigue,fever,nausea,neuropathy,neutropenia,rash
+cisplatin,0,0,0,0,125,0,0,0
+doxorubicin,0,0,0,0,0,0,125,0
+nivolumab,0,0,0,0,0,0,0,125
+olaparib,125,0,0,0,0,0,0,0
+osimertinib,0,125,0,0,0,0,0,0
+paclitaxel,0,0,0,0,0,125,0,0
+pembrolizumab,0,0,125,0,0,0,0,0
+trastuzumab,0,0,0,125,0,0,0,0

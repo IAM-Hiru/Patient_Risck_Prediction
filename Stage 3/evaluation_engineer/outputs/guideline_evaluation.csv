@@ -1,0 +1,9 @@
+query_id,query,target_section,top1_retrieved_section,top1_similarity,top1_relevant,top3_relevant,first_relevant_rank,reciprocal_rank
+Q1,Patient experiencing severe chemotherapy-induced nausea and vomiting.,Chemotherapy nausea,Chemotherapy nausea,0.5656,True,True,1,1.0
+Q2,Patient developed sudden high fever and chills post chemotherapy treatment.,Fever during systemic therapy,Fever during systemic therapy,0.6473,True,True,1,1.0
+Q3,"Severe infusion reaction observed with dyspnea, hypotension and flushing.",Severe infusion reaction,Severe infusion reaction,0.5664,True,True,1,1.0
+Q4,New onset shortness of breath and respiratory chest tightness.,Respiratory symptoms,Respiratory symptoms,0.5397,True,True,1,1.0
+Q5,Patient receiving checkpoint inhibitor immunotherapy presents with colitis and hepatitis.,Immune-related adverse events,Immune-related adverse events,0.7418,True,True,1,1.0
+Q6,"Need to record medication details including dose, route, frequency and adverse events.",Medication documentation,Medication documentation,0.4978,True,True,1,1.0
+Q7,Patient experiencing peripheral neuropathy with tingling and numbness in hands and feet.,Neuropathy,Neuropathy,0.7932,True,True,1,1.0
+Q8,Severe diarrhea and abdominal pain following targeted kinase therapy.,Diarrhea,Diarrhea,0.7215,True,True,1,1.0

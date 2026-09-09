@@ -1,0 +1,58 @@
+{
+    "global_metrics": {
+        "Threshold": 0.2088,
+        "ROC_AUC": 0.8865,
+        "PR_AUC": 0.7302,
+        "F1_Score": 0.6525,
+        "Precision": 0.5198,
+        "Recall": 0.8762,
+        "Confusion_Matrix": {
+            "TN": 260,
+            "FP": 85,
+            "FN": 13,
+            "TP": 92
+        }
+    },
+    "subgroup_metrics": {
+        "BRCA": {
+            "sample_count": 50,
+            "ROC_AUC": 0.8952,
+            "F1_Score": 0.7429
+        },
+        "LUAD": {
+            "sample_count": 65,
+            "ROC_AUC": 0.9269,
+            "F1_Score": 0.8421
+        },
+        "LUSC": {
+            "sample_count": 70,
+            "ROC_AUC": 0.8814,
+            "F1_Score": 0.7308
+        },
+        "COAD": {
+            "sample_count": 70,
+            "ROC_AUC": 0.8434,
+            "F1_Score": 0.5143
+        },
+        "PRAD": {
+            "sample_count": 55,
+            "ROC_AUC": 0.93,
+            "F1_Score": 0.5625
+        },
+        "STAD": {
+            "sample_count": 45,
+            "ROC_AUC": 0.7949,
+            "F1_Score": 0.381
+        },
+        "SKCM": {
+            "sample_count": 50,
+            "ROC_AUC": 0.932,
+            "F1_Score": 0.6667
+        },
+        "BLCA": {
+            "sample_count": 45,
+            "ROC_AUC": 0.8889,
+            "F1_Score": 0.3529
+        }
+    }
+}

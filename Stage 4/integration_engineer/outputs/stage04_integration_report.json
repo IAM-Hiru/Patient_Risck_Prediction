@@ -1,0 +1,20 @@
+{
+  "status": "INTEGRATION_SUCCESS",
+  "total_records_tested": 50,
+  "successful_pipeline_runs": 50,
+  "failed_pipeline_runs": 0,
+  "pipeline_metrics": {
+    "patient_id_preservation_rate": "100.0%",
+    "exact_two_sentence_compliance": "100.0%",
+    "guardrail_escalations_triggered": 3,
+    "under_triage_prevention_rate": "100.0%",
+    "average_latency_per_record_ms": 145.2,
+    "throughput_records_per_sec": 6.88
+  },
+  "schema_validation": {
+    "stage3_ingestion_passed": true,
+    "slm_generation_passed": true,
+    "guardrail_filtering_passed": true,
+    "final_briefing_schema_passed": true
+  }
+}

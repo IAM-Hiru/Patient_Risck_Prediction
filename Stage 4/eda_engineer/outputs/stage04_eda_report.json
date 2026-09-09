@@ -1,0 +1,71 @@
+{
+  "total_records": 10000,
+  "structural_integrity": {
+    "missing_keys_count": 0,
+    "exact_two_sentence_compliance_rate": "100.0%",
+    "invalid_sentence_count_records": []
+  },
+  "length_statistics": {
+    "input_token_stats": {
+      "min": 22,
+      "max": 37,
+      "mean": 28.99,
+      "median": 29.0,
+      "p95": 33.0
+    },
+    "output_token_stats": {
+      "min": 38,
+      "max": 53,
+      "mean": 44.79,
+      "median": 45.0,
+      "p95": 49.0
+    },
+    "input_char_stats": {
+      "min": 163,
+      "max": 293,
+      "mean": 229.34,
+      "median": 230.0,
+      "p95": 253.0
+    },
+    "output_char_stats": {
+      "min": 291,
+      "max": 428,
+      "mean": 358.14,
+      "median": 359.0,
+      "p95": 386.0
+    }
+  },
+  "class_distribution": {
+    "tier_counts": {
+      "LOW": 3000,
+      "MODERATE": 2000,
+      "HIGH": 3000,
+      "CRITICAL": 2000
+    },
+    "tier_percentages": {
+      "LOW": "30.0%",
+      "MODERATE": "20.0%",
+      "HIGH": "30.0%",
+      "CRITICAL": "20.0%"
+    },
+    "shannon_entropy_bits": 1.971,
+    "entropy_ratio": 0.9855,
+    "entropy_standard_met": true
+  },
+  "clinical_coverage": {
+    "reference_biomarkers_catalog": 16,
+    "represented_biomarkers_count": 17,
+    "matched_known_biomarkers_count": 16,
+    "reference_drugs_catalog": 26,
+    "represented_drugs_count": 26,
+    "matched_known_drugs_count": 26,
+    "null_or_unmapped_entities": 0
+  },
+  "integrity_and_leakage": {
+    "total_patient_ids_extracted": 10000,
+    "unique_patient_ids": 10000,
+    "patient_id_duplication_rate": 0.0,
+    "duplicate_prompts_detected": 0,
+    "prompt_target_leakage_status": "AUDITED 0.0% LEAKAGE"
+  }
+}
